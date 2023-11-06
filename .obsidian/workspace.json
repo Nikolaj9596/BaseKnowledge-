@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "03dc06a8af944e16",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb092afec45be222",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "685f0fbdb19390ea",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "de784f2b399c21db",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d69b6bde130703a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "661ad5fa1e56993f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "acc66930db6cab70",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e4957fe9211f6864",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "3c501054d3ef42a3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "10f8a206fcbf66f3",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 332.5086555480957
+  },
+  "right": {
+    "id": "a4aebba3ad4bd133",
+    "type": "split",
+    "children": [
+      {
+        "id": "16a692c912e5f4ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1414f6516480bed5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2023-05-05.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "113b23db8136464b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2023-05-05.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "916cac89c56d5e44",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f41f7eb14dc1f7b4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2023-05-05.md"
+              }
+            }
+          },
+          {
+            "id": "3ec0e6c61ca4766a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "d8be39c642b47c38",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false
+    }
+  },
+  "active": "10f8a206fcbf66f3",
+  "lastOpenFiles": [
+    "2023-09-18.md",
+    "My Pet Project/Api Server /Bot App/Architecture Bot App.md",
+    "2023-11-06.md",
+    "Untitled 7.canvas",
+    "Untitled 6.canvas",
+    "My Pet Project/Api Server /Архитектура проекта API Сервера.md",
+    "Untitled 5.canvas",
+    "Untitled 4.canvas",
+    "Untitled 1.canvas",
+    "My Pet Project/Api Server /Auth App/Architecture Auth App.md",
+    "My Pet Project/Api Server /Trading Platform App/Architecture Trading Platform App.md",
+    "My Pet Project/Api Server /Bot App/Research strategies and risk management.md",
+    "My Pet Project/Api Server /Ход работы.md",
+    "Untitled 3.canvas",
+    "2023-10-27.md",
+    "Untitled 2.canvas",
+    "My Pet Project/Api Server /Bot App",
+    "My Pet Project/Api Server /User App/Profile.md",
+    "My Pet Project/Api Server /User App/Trading Platform Account.md",
+    "My Pet Project/Api Server /User App/Architecture User App.md",
+    "RabbitMQ/Course Slerm RabbitMQ.md",
+    "RabbitMQ",
+    "My Pet Project/Api Server /Trading Platform App",
+    "Python/SQL Alchemi.md",
+    "SQL/SELECT.md",
+    "My Pet Project/Api Server /User App/Architecture  User Permission.md",
+    "Architecture User Permission.md",
+    "My Pet Project/Api Server /User App",
+    "File.md",
+    "My Pet Project/Api Server /Auth App",
+    "Lua Plugin/My Docker Lua Plugin.md",
+    "Untitled.canvas",
+    "Trading Bots/SIgnal Trading Bot/doc-trading-bot.md",
+    "My Pet Project/Api Server ",
+    "My Pet Project",
+    "Lua Plugin/New plug for docker.md",
+    "2023-05-05.md",
+    "Trading/Trading Bots Scalper.md",
+    "Trading/Scalpin Course 1/Note 1.md",
+    "Python/Django Material View.md",
+    "Trading Bots/SIgnal Trading Bot",
+    "Trading Bots"
+  ]
+}
