@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "685f0fbdb19390ea",
+            "id": "d3251f31f651a934",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Projects/My Pet Project/Api Server /Trading Platform App/Architecture Trading Platform App.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,7 +86,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5086555480957
+    "width": 315.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "a4aebba3ad4bd133",
@@ -98,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-05-05.md",
+                "file": "Projects/My Pet Project/Api Server /Trading Platform App/Architecture Trading Platform App.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-05-05.md",
+                "file": "Projects/My Pet Project/Api Server /Trading Platform App/Architecture Trading Platform App.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-05-05.md"
+                "file": "Projects/My Pet Project/Api Server /Trading Platform App/Architecture Trading Platform App.md"
               }
             }
           },
@@ -161,7 +166,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -176,52 +181,56 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "10f8a206fcbf66f3",
   "lastOpenFiles": [
+    "Recording 20231120161622.webm",
+    "Education/Python/SQL Alchemi.md",
+    "Education/Python/Django Material View.md",
+    "Projects/My Pet Project/Api Server /Ход работы.md",
+    "Notes",
+    "Education",
+    "Projects",
+    "Projects/My Pet Project/Api Server /Bot App/Research strategies and risk management.md",
+    "Projects/My Pet Project/Api Server /Trading Platform App/Architecture Trading Platform App.md",
+    "Projects/My Pet Project/Api Server /Bot App/Architecture Bot App.md",
+    "Projects/My Pet Project/Api Server /User App/Trading Platform Account.md",
+    "Projects/My Pet Project/Api Server /Архитектура проекта API Сервера.md",
+    "Projects/My Pet Project/Api Server /Auth App/Architecture Auth App.md",
     "2023-09-18.md",
-    "My Pet Project/Api Server /Bot App/Architecture Bot App.md",
     "2023-11-06.md",
     "Untitled 7.canvas",
     "Untitled 6.canvas",
-    "My Pet Project/Api Server /Архитектура проекта API Сервера.md",
     "Untitled 5.canvas",
     "Untitled 4.canvas",
     "Untitled 1.canvas",
-    "My Pet Project/Api Server /Auth App/Architecture Auth App.md",
-    "My Pet Project/Api Server /Trading Platform App/Architecture Trading Platform App.md",
-    "My Pet Project/Api Server /Bot App/Research strategies and risk management.md",
-    "My Pet Project/Api Server /Ход работы.md",
     "Untitled 3.canvas",
     "2023-10-27.md",
     "Untitled 2.canvas",
-    "My Pet Project/Api Server /Bot App",
-    "My Pet Project/Api Server /User App/Profile.md",
-    "My Pet Project/Api Server /User App/Trading Platform Account.md",
-    "My Pet Project/Api Server /User App/Architecture User App.md",
-    "RabbitMQ/Course Slerm RabbitMQ.md",
-    "RabbitMQ",
-    "My Pet Project/Api Server /Trading Platform App",
-    "Python/SQL Alchemi.md",
-    "SQL/SELECT.md",
+    "Projects/My Pet Project/Api Server /Bot App",
+    "Projects/My Pet Project/Api Server /User App/Profile.md",
+    "Projects/My Pet Project/Api Server /User App/Architecture User App.md",
+    "Education/RabbitMQ/Course Slerm RabbitMQ.md",
+    "Education/RabbitMQ",
+    "Projects/My Pet Project/Api Server /Trading Platform App",
+    "Education/SQL/SELECT.md",
     "My Pet Project/Api Server /User App/Architecture  User Permission.md",
     "Architecture User Permission.md",
-    "My Pet Project/Api Server /User App",
+    "Projects/My Pet Project/Api Server /User App",
     "File.md",
-    "My Pet Project/Api Server /Auth App",
-    "Lua Plugin/My Docker Lua Plugin.md",
+    "Projects/My Pet Project/Api Server /Auth App",
+    "Projects/Lua Plugin/My Docker Lua Plugin.md",
     "Untitled.canvas",
-    "Trading Bots/SIgnal Trading Bot/doc-trading-bot.md",
-    "My Pet Project/Api Server ",
-    "My Pet Project",
-    "Lua Plugin/New plug for docker.md",
+    "Projects/Trading Bots/SIgnal Trading Bot/doc-trading-bot.md",
+    "Projects/My Pet Project/Api Server ",
+    "Projects/Lua Plugin/New plug for docker.md",
     "2023-05-05.md",
-    "Trading/Trading Bots Scalper.md",
-    "Trading/Scalpin Course 1/Note 1.md",
-    "Python/Django Material View.md",
-    "Trading Bots/SIgnal Trading Bot",
-    "Trading Bots"
+    "Education/Trading/Trading Bots Scalper.md",
+    "Education/Trading/Scalpin Course 1/Note 1.md"
   ]
 }

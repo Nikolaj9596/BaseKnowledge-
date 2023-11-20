@@ -8,5 +8,7 @@
   "obsidian-emoji-toolbar",
   "obsidian-plantuml",
   "file-tree-alternative",
-  "obsidian-git"
+  "obsidian-git",
+  "dataview",
+  "table-editor-obsidian"
 ]

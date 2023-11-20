@@ -5,7 +5,7 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [],
-    "recentlyUsedIconsSize": 5,
+    "recentlyUsedIconsSize": 9,
     "rules": [],
     "extraMargin": {
       "top": 0,
@@ -13,10 +13,11 @@
       "bottom": 0,
       "left": 0
     },
-    "emojiStyle": "none",
-    "iconInTabsEnabled": false,
-    "iconInTitleEnabled": false,
+    "emojiStyle": "twemoji",
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": true,
     "iconInFrontmatterEnabled": false,
-    "iconsBackgroundCheckEnabled": false
+    "iconsBackgroundCheckEnabled": true,
+    "iconsInNotesEnabled": true
   }
 }
