@@ -1,5 +1,5 @@
 # Check use port on host
-
+#linux #command 
 
 ```bash
 sudo lsof -i -P -n | grep LISTEN

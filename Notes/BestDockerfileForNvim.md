@@ -1,6 +1,8 @@
 # The best practice create docker file for nginx
 
-```docker
+#nginx #dockerfile
+
+```yaml
 FROM alpine:3.11.5
 
 ENV NGINX_VERSION 1.16.1-r6
