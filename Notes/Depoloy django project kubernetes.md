@@ -1,4 +1,5 @@
 ## Первичная настройка
+#django #kubernetes #devops
 * Выбираем название проекта, например `example`
 * С помощью команды `kubectl get node` получаем имя ноды (уточнить у девопса), например `main-node-t5q3g`
 * Namespace - `example-ns`
