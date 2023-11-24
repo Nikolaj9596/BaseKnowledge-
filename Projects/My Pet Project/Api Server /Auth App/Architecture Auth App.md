@@ -1,6 +1,6 @@
-
+# Auth App Architecture
+#hosting-bot #auth_app
 ## Регистрация пользователей
-[[Architecture Auth App]]
 ###### Архитектура базы данных
 
 ```plantuml

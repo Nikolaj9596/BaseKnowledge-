@@ -1,5 +1,6 @@
-
-# To create a user and a database in PostgreSQL, you can follow these steps:
+# Instruction 
+#postgresql
+#### To create a user and a database in PostgreSQL, you can follow these steps:
 
 1. Connect to PostgreSQL: Open a command-line interface or terminal and connect to your 
   PostgreSQL database server using the psql command. You might need to provide the username 
@@ -38,9 +39,6 @@ GRANT ALL PRIVILEGES ON DATABASE your_new_database TO your_new_username;
 ```
 This example grants all privileges on the your_new_database to your_new_username.
 You can adjust the privileges as needed.
-
-
-
 ## Change owner
 
 Change the owner: Once you're connected to the PostgreSQL server, you can change the 

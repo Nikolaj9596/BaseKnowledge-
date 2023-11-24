@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5e1c7769a25188a7",
+        "id": "d9fb187ca7dd9c2c",
         "type": "tabs",
         "children": [
           {
-            "id": "346d8fe9289b20f7",
+            "id": "12c32fa5d8257cb4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Linux tools for check use port on host.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -102,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linux tools for check use port on host.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linux tools for check use port on host.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Notes/Linux tools for check use port on host.md"
-              }
+              "state": {}
             }
           },
           {
@@ -194,17 +186,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "346d8fe9289b20f7",
+  "active": "12c32fa5d8257cb4",
   "lastOpenFiles": [
+    "Projects/My Pet Project/Api Server /Auth App/Architecture Auth App.md",
+    "Notes/alembic-command.md",
+    "Notes/Create db owner in postgresql.md",
+    "Notes/docker cache in ci-cd.md",
+    "Notes/Linux tools for check use port on host.md",
     "Notes/Kubernetes-Liveness-and-Readiness-pords.md",
     "Notes/Kubernetes Command.md",
     "Projects/My Pet Project/Api Server /Trading Platform App/Architecture Trading Platform App.md",
-    "Projects/My Pet Project/Api Server /Auth App/Architecture Auth App.md",
     "Notes/BestDockerfileForNvim.md",
     "Notes/Nvim Base Configuration.md",
-    "Notes/Create-PostgreSQL-User-DB.md",
     "Notes/AsyncPG Connector.md",
-    "Notes/CI-CD-with-use-docker-cache.md",
     "Projects/My Pet Project/Api Server /Архитектура проекта API Сервера.md",
     "Notes/Exports-Metrics-Prometheus-Djang-FastApi.md",
     "Projects/Trading Bots/SIgnal Trading Bot/doc-trading-bot.md",
@@ -220,8 +214,6 @@
     "Projects/Lua Plugin/New plug for docker.md",
     "Projects/Lua Plugin/My Docker Lua Plugin.md",
     "Notes/MiltyStageBuildDockerfile.md",
-    "Notes/Lua Plugin Prsentation.md",
-    "Notes/git-changelog.md",
     "Recording 20231120161622.webm",
     "Notes",
     "Education",
