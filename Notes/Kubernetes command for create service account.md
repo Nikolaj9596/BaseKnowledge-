@@ -1,3 +1,4 @@
+#kubernetes  #ci/cd
 # Добавляем объект Image Pull Policy GitLab
 
 | Чтобы GitLab Runner мог деплоить приложение в кластер Kubernetes, 

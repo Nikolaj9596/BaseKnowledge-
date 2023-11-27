@@ -1,3 +1,4 @@
+#django #python 
 ### Step 3. Create a materialized view in database
 
 In PostgreSQL console, run following SQL command to generate a materialized view that only contains data whose pub_date is in or after year 2021.
