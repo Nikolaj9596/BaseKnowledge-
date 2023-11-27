@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Django clear permission.md",
+                "file": "Projects/My Pet Project/Api Server /Ход работы.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Ход работы",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Django clear permission.md",
+                "file": "Projects/My Pet Project/Api Server /Ход работы.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Django clear permission.md",
+                "file": "Projects/My Pet Project/Api Server /Ход работы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Django clear permission.md"
+                "file": "Projects/My Pet Project/Api Server /Ход работы.md"
               }
             }
           },
@@ -196,6 +196,7 @@
   },
   "active": "12c32fa5d8257cb4",
   "lastOpenFiles": [
+    "Notes/Django clear permission.md",
     "Education/Python/Django Material View.md",
     "Notes/Kubernetes command for create service account.md",
     "Projects/My Pet Project/Api Server /Auth App/Architecture Auth App.md",
@@ -214,7 +215,6 @@
     "Projects/Trading Bots/SIgnal Trading Bot/doc-trading-bot.md",
     "Notes/django_tools_serializer.md",
     "Education/Python/Django QuerySets are Lazy.md",
-    "Notes/Django clear permission.md",
     "Notes/Depoloy django project kubernetes.md",
     "Notes/Database constraints in Django.md",
     "Notes/Custom migrations in django.md",
