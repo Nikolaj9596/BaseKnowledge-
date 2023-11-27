@@ -27,36 +27,6 @@ enum TimeFrame{
   1_MONTH
 }
 
-enum Indicator {
-  RSI
-  Moving_Average
-  MACD
-  Bollinger_Bands
-  Stochastic_Oscillator
-  Relative_Volume
-  Average_True_Range
-  Ichimoku_Cloud
-  Fibonacci_Retracement
-  Volume_Oscillator
-  Williams_Percent_R
-  Parabolic_SAR
-  Average_Directional_Index
-  On_Balance_Volume
-  Money_Flow_Index
-  Chaikin_Oscillator
-  Commodity_Channel_Index
-  Rate_of_Change
-  Relative_Strength
-  Accumulation_Distribution
-  Pivot_Points
-  Exponential_Moving_Average
-  Volume_Weighted_Average_Price
-  Fibonacci_Fan
-  Williams_Alligator
-  Demarker_Indicator
-  Trix_Indicator
-}
-
 enum TradingStrategy {
   Scalping
   DayTrading
@@ -73,27 +43,46 @@ enum TradingStrategy {
   SmartMoney
 }
 
+enum TypeMarket{
+  SPOT
+  FUTURES
+}
+
 
 enum TradingFrequency{
   HIGH_FREQUENCY_TRADING
   LOW_FREQUENCY_TRADING
 }
 
+enum OrderTypeMarker{
+  AUTO
+  CURRENT_MARKET_PRICE
+  LIMIT_ORDERS
+}
+
 class PlatformTradingAccount{
-  + id: int
+  + id: integer
 }
 
 class PlatformTrading{
-  + id: int
+  + id: integer
 }
 
-class TrdingSession{
-  + id: int
+class Client{
+  + id: integer
+}
+
+class TradingSession{
+  + id: integer
   + created: datetime
   + updated: datetime
   + name: str
   + start_time: time
   + end_time: time
+  + all_time: boolean
+  + is_global: boolean
+  + creator: Client
+  + priority: integer
 }
 
 class Assets{
@@ -101,29 +90,41 @@ class Assets{
   + created: datetime
   + updated: datetime
   + name: str
-  + min_lot_size: Decimal
-  + max_lot_size: Decimal
+  + min_lot_quantity: float 
+  + min_lot_price: float
+  + max_lot_quantity: float
+  + max_lot_price: float
   + trading_platforms: PlatformTrading
-  + sync_on_platform: boolean
+  + sync_on_platform: datetime 
+  + type_market: TypeMarket
+  + icon: Image
   - _value: json
 }
 
-class ConditionStratege{
+class TradingSignalsIndicator{
   + id: int
   + created: datetime
   + updated: datetime
   + name: str
+}
+
+class ConditionStrategy{
+  + id: int
+  + created: datetime
+  + updated: datetime
+  + name: str
+  + description: string
+  + is_show_all: boolean
+  + creator: Optional[Client]
   + condition_type: ConditionType
   + hight_timeframe: TimeFrame
   + low_timeframe: TimeFrame
-  + description: string
-  + indicator: list[Indicator]
+  + indicator: list[TradingSignalsIndicator]
   + assets: Assets
-  + min_lot_size: Optional[Decimal]
-  + max_lot_size: Optional[Decimal]
+  + min_lot_size: Optional[float]
+  + max_lot_size: Optional[float]
   + percentage_of_total_portfolio: float
-  + use_current_market_price: boolean
-  + use_limit_orders: boolean
+  + order_type_marker: OrderTypeMarker
   + trading_frequency: TradingFrequency
   ....
   Risk management in %
@@ -137,21 +138,22 @@ class ConditionStratege{
   - value: json
 }
 
-class UserStratege{
+class UserStrategy{
   + id: int
   + name: str
   + created: datetime
   + updated: datetime
-  + trading_session: TrdingSession
-  + condition: ConditionStratege
+  + condition: ConditionStrategy
+  + creator: Client
+  ....
   + use_existing_stratege: boolean
-  + startage: TradingStrategy
-  + assets: list[Assets]
+  + trading_session: TradingSession
+  + strategy: TradingStrategy
   - value: json
 }
 
 class BotReport{
-  + id: int
+  + id: integer
   + created: datetime
   + updated: datetime
   + report: Image
@@ -161,36 +163,39 @@ class BotReport{
 class Bot {
   + id: integer
   + platform_trading_account: PlatformTradingAccount
-  + stratege:UserStratege 
+  + stratege: UserStrategy 
   + status: Status
   + is_active: boolean
   + created: datetime
   + updated: datetime
   + limit_num_of_transactions_per_day: int
-  + limit_num_of_unsuccessful_transaciton_per_day: int
+  + limit_num_of_unsuccessful_transaction_per_day: int
 }
 
-Bot::paltform_trading_account "1"-->"1...*" PlatformTradingAccount::id
-Bot::stratege "1"-->"1..*" UserStratege::id
-Bot::status --> Status
+Bot::paltform_trading_account "1"-[#green]->"1...*" PlatformTradingAccount::id
+Bot::stratege "1"-[#green]->"1..*" UserStrategy::id
+Bot::status -[#green]-> Status
+Bot::owner "1..*"-[#green]->"*..1" Client 
 
-BotReport::bot "1..*"-->"1" Bot::id
-Assets::trading_platforms"*..*"-->"*..*"PlatformTrading::id
+BotReport::bot "1..*"-[#black]->"*..1" Bot::id
+TradingSession::creator "1..*"-[#gray]->"*..1" Client::id
+Assets::trading_platform "1"-[#pink]->"1..*"PlatformTrading::id
+Assets::type_market-[#pink]->TypeMarket
 
-ConditionStratege::condition_type --> ConditionType
-ConditionStratege::hight_timeframe --> TimeFrame
-ConditionStratege::low_timeframe --> TimeFrame
-ConditionStratege::indicator --> Indicator 
-ConditionStratege::trading_frequency --> TradingFrequency 
+ConditionStrategy::condition_type -[#red]-> ConditionType
+ConditionStrategy::hight_timeframe -[#red]-> TimeFrame
+ConditionStrategy::low_timeframe -[#red]-> TimeFrame
+ConditionStrategy::indicator "*..*"-[#red]->"*..*" TradingSignalsIndicator 
+ConditionStrategy::trading_frequency -[#red]-> TradingFrequency 
+ConditionStrategy::order_type_marker -[#red]-> OrderTypeMarker
+ConditionStrategy::creator "1..*" -[#red]-> "*..1"Client
 
-UserStratege::trading_session "*..*"-->TrdingSession::id
-UserStratege::assets "*..*"-->Assets::id
-UserStratege::condition "*..*"-->"*..*"ConditionStratege::id
-UserStratege::stratege --> TradingStrategy
-
+UserStrategy::trading_session "*..*"-[#yellow]->TradingSession::id
+UserStrategy::condition "*..*"-[#yellow]->"*..*"ConditionStrategy::id
+UserStrategy::stratege -[#yellow]-> TradingStrategy
+UserStrategy::creator "1..**"-[#yellow]->"**..1" Client::id
 
 @enduml
-
 ```
 
 #### Business logic 
