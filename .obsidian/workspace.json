@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/My Pet Project/Api Server /Bot App/Architecture Bot App.md",
+                "file": "Projects/My Pet Project/Api Server /Ход работы.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/My Pet Project/Api Server /Bot App/Architecture Bot App.md",
+                "file": "Projects/My Pet Project/Api Server /Ход работы.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/My Pet Project/Api Server /Bot App/Architecture Bot App.md",
+                "file": "Projects/My Pet Project/Api Server /Ход работы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/My Pet Project/Api Server /Bot App/Architecture Bot App.md"
+                "file": "Projects/My Pet Project/Api Server /Ход работы.md"
               }
             }
           },
@@ -196,6 +196,7 @@
   },
   "active": "12c32fa5d8257cb4",
   "lastOpenFiles": [
+    "Projects/My Pet Project/Api Server /Bot App/Architecture Bot App.md",
     "Projects/My Pet Project/Api Server /Ход работы.md",
     "Notes/Django clear permission.md",
     "Education/Python/Django Material View.md",
@@ -221,7 +222,6 @@
     "Notes/Custom migrations in django.md",
     "Notes/Postgres query 5 biggest tables.md",
     "Notes/Nvim-Tree-Mapping.md",
-    "Projects/Lua Plugin/New plug for docker.md",
     "Recording 20231120161622.webm",
     "Notes",
     "Education",
