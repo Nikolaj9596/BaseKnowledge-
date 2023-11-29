@@ -1,4 +1,5 @@
 ## Publisher
+#rabbitmq #course 
 
 - App-side - отправляет сообщения
 - Connection, channel - термины подключения(1 соединение - 1 каннал)

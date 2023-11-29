@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d9fb187ca7dd9c2c",
+        "id": "8f44afce6f2c0a26",
         "type": "tabs",
         "children": [
           {
-            "id": "12c32fa5d8257cb4",
+            "id": "e488db3b25d3e5f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -194,8 +194,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "12c32fa5d8257cb4",
+  "active": "e488db3b25d3e5f9",
   "lastOpenFiles": [
+    "Education/RabbitMQ/Course Slerm RabbitMQ.md",
     "Projects/My Pet Project/Api Server /Ход работы.md",
     "Projects/My Pet Project/Api Server /Bot App/Architecture Bot App.md",
     "Notes/Django clear permission.md",
@@ -221,7 +222,6 @@
     "Notes/Database constraints in Django.md",
     "Notes/Custom migrations in django.md",
     "Notes/Postgres query 5 biggest tables.md",
-    "Notes/Nvim-Tree-Mapping.md",
     "Recording 20231120161622.webm",
     "Notes",
     "Education",
