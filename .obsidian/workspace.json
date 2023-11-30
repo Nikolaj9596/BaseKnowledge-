@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/RabbitMQ/Course Slerm RabbitMQ.md",
+                "file": "Notes/alembic.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/RabbitMQ/Course Slerm RabbitMQ.md",
+                "file": "Notes/alembic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Education/RabbitMQ/Course Slerm RabbitMQ.md",
+                "file": "Notes/alembic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Education/RabbitMQ/Course Slerm RabbitMQ.md"
+                "file": "Notes/alembic.md"
               }
             }
           },
@@ -203,7 +203,7 @@
     "Education/Python/Django Material View.md",
     "Notes/Kubernetes command for create service account.md",
     "Projects/My Pet Project/Api Server /Auth App/Architecture Auth App.md",
-    "Notes/alembic-command.md",
+    "Notes/alembic.md",
     "Notes/Create db owner in postgresql.md",
     "Notes/docker cache in ci-cd.md",
     "Notes/Linux tools for check use port on host.md",
