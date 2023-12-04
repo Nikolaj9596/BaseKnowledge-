@@ -1,3 +1,6 @@
+# Course by sql
+#sql #course
+
 Вывод всех столбцов из таблицы
 ```sql
 select * from employees;

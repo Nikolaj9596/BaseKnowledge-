@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/Courses/Architecture СЛЕРМ.md",
+                "file": "Education/Courses/SQL/SELECT.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,8 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5004348754883,
-    "collapsed": true
+    "width": 315.5004348754883
   },
   "right": {
     "id": "a4aebba3ad4bd133",
@@ -103,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/Courses/Architecture СЛЕРМ.md",
+                "file": "Education/Courses/SQL/SELECT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Education/Courses/Architecture СЛЕРМ.md",
+                "file": "Education/Courses/SQL/SELECT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Education/Courses/Architecture СЛЕРМ.md"
+                "file": "Education/Courses/SQL/SELECT.md"
               }
             }
           },
@@ -195,19 +194,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e488db3b25d3e5f9",
+  "active": "10f8a206fcbf66f3",
   "lastOpenFiles": [
-    "Notes/alembic.md",
+    "Education/Python/SQL Alchemi.md",
+    "Notes/Create db owner in postgresql.md",
     "Education/Courses/Architecture СЛЕРМ.md",
+    "Notes/alembic.md",
     "Education/Courses",
-    "Education/RabbitMQ/Course Slerm RabbitMQ.md",
+    "Education/Courses/RabbitMQ/Course Slerm RabbitMQ.md",
     "Projects/My Pet Project/Api Server /Ход работы.md",
     "Projects/My Pet Project/Api Server /Bot App/Architecture Bot App.md",
     "Notes/Django clear permission.md",
     "Education/Python/Django Material View.md",
     "Notes/Kubernetes command for create service account.md",
     "Projects/My Pet Project/Api Server /Auth App/Architecture Auth App.md",
-    "Notes/Create db owner in postgresql.md",
     "Notes/docker cache in ci-cd.md",
     "Notes/Linux tools for check use port on host.md",
     "Notes/Kubernetes-Liveness-and-Readiness-pords.md",
@@ -223,7 +223,6 @@
     "Education/Python/Django QuerySets are Lazy.md",
     "Notes/Depoloy django project kubernetes.md",
     "Notes/Database constraints in Django.md",
-    "Notes/Custom migrations in django.md",
     "Recording 20231120161622.webm",
     "Notes",
     "Education",
@@ -236,7 +235,7 @@
     "Untitled 3.canvas",
     "Untitled 2.canvas",
     "Projects/My Pet Project/Api Server /Bot App",
-    "Education/RabbitMQ",
+    "Education/Courses/RabbitMQ",
     "Projects/My Pet Project/Api Server /Trading Platform App",
     "Projects/My Pet Project/Api Server /User App",
     "Projects/My Pet Project/Api Server /Auth App",
