@@ -196,6 +196,7 @@
   },
   "active": "10f8a206fcbf66f3",
   "lastOpenFiles": [
+    "Education/Courses/PostgreSQL",
     "Education/Python/SQL Alchemi.md",
     "Notes/Create db owner in postgresql.md",
     "Education/Courses/Architecture СЛЕРМ.md",
@@ -222,7 +223,6 @@
     "Notes/django_tools_serializer.md",
     "Education/Python/Django QuerySets are Lazy.md",
     "Notes/Depoloy django project kubernetes.md",
-    "Notes/Database constraints in Django.md",
     "Recording 20231120161622.webm",
     "Notes",
     "Education",
