@@ -18,3 +18,4 @@
 - Сложность поиска `O(logN)`
 
 #### Hash index
+- CREATE INDEX index_name ON table_name USEI
