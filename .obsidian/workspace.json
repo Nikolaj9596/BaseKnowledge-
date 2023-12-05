@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/Courses/PostgreSQL/postgresql_indexes.md",
+                "file": "Education/Courses/Architecture СЛЕРМ.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5004348754883
+    "width": 315.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "a4aebba3ad4bd133",
@@ -102,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/Courses/PostgreSQL/postgresql_indexes.md",
+                "file": "Education/Courses/Architecture СЛЕРМ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Education/Courses/PostgreSQL/postgresql_indexes.md",
+                "file": "Education/Courses/Architecture СЛЕРМ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Education/Courses/PostgreSQL/postgresql_indexes.md"
+                "file": "Education/Courses/Architecture СЛЕРМ.md"
               }
             }
           },
@@ -196,8 +197,8 @@
   },
   "active": "e488db3b25d3e5f9",
   "lastOpenFiles": [
-    "Education/Courses/SQL/SELECT.md",
     "Education/Courses/PostgreSQL/postgresql_indexes.md",
+    "Education/Courses/SQL/SELECT.md",
     "Education/Courses/PostgreSQL",
     "Education/Python/SQL Alchemi.md",
     "Notes/Create db owner in postgresql.md",
