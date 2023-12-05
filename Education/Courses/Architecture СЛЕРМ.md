@@ -75,4 +75,35 @@ Student ..|> IStudent
 --------* Композиция
 ```
 
-#### 
+#### Диаграммы классов
+
+##### Ассоциация
+```plantuml
+class Client{}
+class Server{}
+
+Client "*"-->"1..*" Server
+```
+
+##### Наследование
+
+```plantuml
+class Person{}
+class Student{}
+class Speaker{}
+
+Student --|> Person
+Speaker --|> Person
+```
+
+##### Реализация
+```plantuml
+class ConsoleWriter
+class ConsoleReader
+class ConsoleIO
+
+ConsoleIO ..|> ConsoleWriter
+ConsoleIO ..|> ConsoleReader
+```
+
+##### Агрега
