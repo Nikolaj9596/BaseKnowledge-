@@ -18,4 +18,11 @@
 - Сложность поиска `O(logN)`
 
 #### Hash index
-- CREATE INDEX index_name ON table_name USEI
+- `CREATE INDEX index_name ON table_name USING HASH (column_name);`
+- Поддерживает только операцию '='
+- Не отражается в журнале предзаписи (`WAL`)
+- Сложность поиска `O(1)`
+
+### Специализированные индексы
+
+#### GIST (обобщенное дерево поиска)
