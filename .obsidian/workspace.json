@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/Courses/Architecture СЛЕРМ.md",
+                "file": "Education/Python/FastApi Session generator.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5004348754883
+    "width": 315.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "a4aebba3ad4bd133",
@@ -114,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/Courses/Architecture СЛЕРМ.md",
+                "file": "Education/Python/FastApi Session generator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Education/Courses/Architecture СЛЕРМ.md",
+                "file": "Education/Python/FastApi Session generator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Education/Courses/Architecture СЛЕРМ.md"
+                "file": "Education/Python/FastApi Session generator.md"
               }
             }
           },
@@ -208,9 +209,10 @@
   },
   "active": "a51cca019adb26cb",
   "lastOpenFiles": [
+    "Education/Courses/Architecture СЛЕРМ.md",
+    "Education/Python/FastApi Session generator.md",
     "Projects/My Pet Project/Api Server /Bot App/Architecture Bot App.md",
     "Projects/My Pet Project/Api Server /Trading Platform App/Architecture Trading Platform App.md",
-    "Education/Courses/Architecture СЛЕРМ.md",
     "Education/Courses/PostgreSQL/postgresql_indexes.md",
     "Education/Courses/SQL/SELECT.md",
     "Education/Courses/PostgreSQL",
@@ -235,7 +237,6 @@
     "Notes/Exports-Metrics-Prometheus-Djang-FastApi.md",
     "Projects/Trading Bots/SIgnal Trading Bot/doc-trading-bot.md",
     "Notes/django_tools_serializer.md",
-    "Education/Python/Django QuerySets are Lazy.md",
     "Recording 20231120161622.webm",
     "Notes",
     "Education",
