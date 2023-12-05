@@ -13,4 +13,8 @@
 - Создается по умолчанию (`CREATE INDEX index_name ON table_name (column_name)`)
 - Поддерживает операции:
 	`<,>,<=,>=,=`
--  Поддерживает LIKE `abc%`
+-  Поддерживает LIKE `abc%` (но не `%abc`)
+- Индексирует `NULL`
+- Сложность поиска `O(logN)`
+
+#### Hash index
