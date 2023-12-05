@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8f44afce6f2c0a26",
+        "id": "ce039b9419d60420",
         "type": "tabs",
         "children": [
           {
-            "id": "e488db3b25d3e5f9",
+            "id": "a51cca019adb26cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -79,6 +79,18 @@
             "state": {
               "type": "file-tree-view",
               "state": {}
+            }
+          },
+          {
+            "id": "e488db3b25d3e5f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Education/Courses/Architecture СЛЕРМ.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -195,7 +207,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e488db3b25d3e5f9",
+  "active": "a51cca019adb26cb",
   "lastOpenFiles": [
     "Projects/My Pet Project/Api Server /Bot App/Architecture Bot App.md",
     "Projects/My Pet Project/Api Server /Trading Platform App/Architecture Trading Platform App.md",
