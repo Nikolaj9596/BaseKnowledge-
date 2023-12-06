@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/Courses/PostgreSQL/postgresql-tools.md",
+                "file": "Education/Courses/PostgreSQL/QPT.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5004348754883
+    "width": 315.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "a4aebba3ad4bd133",
@@ -114,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/Courses/PostgreSQL/postgresql-tools.md",
+                "file": "Education/Courses/PostgreSQL/QPT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Education/Courses/PostgreSQL/postgresql-tools.md",
+                "file": "Education/Courses/PostgreSQL/QPT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Education/Courses/PostgreSQL/postgresql-tools.md"
+                "file": "Education/Courses/PostgreSQL/QPT.md"
               }
             }
           },
@@ -206,10 +207,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a51cca019adb26cb",
+  "active": "10f8a206fcbf66f3",
   "lastOpenFiles": [
-    "Education/Courses/PostgreSQL/postgresql_indexes.md",
     "Education/Courses/PostgreSQL/postgresql-tools.md",
+    "Education/Courses/PostgreSQL/QPT.md",
+    "Education/Courses/PostgreSQL/postgresql_indexes.md",
     "Education/Python/FastApi Session generator.md",
     "Education/Courses/Architecture СЛЕРМ.md",
     "Projects/My Pet Project/Api Server /Bot App/Architecture Bot App.md",
@@ -235,7 +237,6 @@
     "Notes/AsyncPG Connector.md",
     "Projects/My Pet Project/Api Server /Архитектура проекта API Сервера.md",
     "Notes/Exports-Metrics-Prometheus-Djang-FastApi.md",
-    "Projects/Trading Bots/SIgnal Trading Bot/doc-trading-bot.md",
     "Recording 20231120161622.webm",
     "Notes",
     "Education",
