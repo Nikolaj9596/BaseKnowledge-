@@ -24,6 +24,7 @@ max_parallel_workers_per_gather = 2
 ###### Равно нулю (параллельный план не строится)
 если размер таблицы < min_parallel_table_scan_size = 8MB
 ###### Фикировано
-Если для таблицы указан параметр хранения 
-
+Если для таблицы указан параметр хранения parallel_workers
 ###### Вычисляется по формуле
+1 +|log3(размер таблицы min_parallel_table_scan_size) | но не больше, чем max_parallel_workers_per_gather
+

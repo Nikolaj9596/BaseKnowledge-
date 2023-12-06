@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/Courses/PostgreSQL/QPT.md",
+                "file": "Education/Courses/PostgreSQL/postgresql-tools.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/Courses/PostgreSQL/QPT.md",
+                "file": "Education/Courses/PostgreSQL/postgresql-tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Education/Courses/PostgreSQL/QPT.md",
+                "file": "Education/Courses/PostgreSQL/postgresql-tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Education/Courses/PostgreSQL/QPT.md"
+                "file": "Education/Courses/PostgreSQL/postgresql-tools.md"
               }
             }
           },
@@ -207,10 +207,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "10f8a206fcbf66f3",
+  "active": "a51cca019adb26cb",
   "lastOpenFiles": [
-    "Education/Courses/PostgreSQL/postgresql-tools.md",
     "Education/Courses/PostgreSQL/QPT.md",
+    "Education/Courses/PostgreSQL/postgresql-tools.md",
     "Education/Courses/PostgreSQL/postgresql_indexes.md",
     "Education/Python/FastApi Session generator.md",
     "Education/Courses/Architecture СЛЕРМ.md",

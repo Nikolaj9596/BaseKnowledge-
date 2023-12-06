@@ -5,6 +5,9 @@
 
 ==Explain==
 - `EXPLAIN query` - позволяет посмотреть план выполнения запроса
+```sql
+=> EXPLAIN SELECT
+```
 - `EXPLAIN ANALYZE query` - прогоняет запрос, показывает план и реальность
 
 ==Vacuum==
