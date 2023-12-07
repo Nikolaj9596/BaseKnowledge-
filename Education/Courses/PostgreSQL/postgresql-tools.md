@@ -52,7 +52,18 @@ Aggregate (cost=24.75...24.76 rows=1 width=8)
 
 План состоит из двух узлов. Верхний - Aggregate, в котором происходит вычисление count, - получает данные то нижнего - Seq Scan.
 
-Обратите внимание на стоимость узла Aggre
+Обратите внимание на стоимость узла Aggregate: нижняя цифра практически
+равна верхней. Это означает, что узел не может выдать результат, пока не обработает все данные (что вполне логично)
+
+Разницу между оценкой для Aggregate и верхней оценкой для Seq Scan - стоимость работы собственно узла Aggregate. Она вычисляется исходя из оценки ресурсов на выполнение условной операции:
+```sql
+=> SELECT reltuples, current_setting('cpu_operator_cost'),
+reltuples * current_setting('cpu_operator_cost')::real AS tatal
+FROM pg_class WHERE relname='seats':
+
+relpages|current_setting|total
+1339    |0.0025         | 3.3475
+```
 - `EXPLAIN ANALYZE query` - прогоняет запрос, показывает план и реальность
 
 ==Vacuum==
