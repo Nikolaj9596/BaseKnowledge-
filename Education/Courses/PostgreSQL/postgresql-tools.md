@@ -36,9 +36,23 @@ relpages|current_setting|total
 SELECT reltuples, current_setting('cpu_tuple_cost'),
 reltuples * current_setting('cpu_tuple_cost')::real AS total
 FROM pg_class WHERE relname='flights';
+
 relpages|current_setting|total
-   |1              | 2416
+214867  |0.01           | 2148.67
 ```
+
+###### Агрегация
+```sql
+=> EXPLAIN SELECT count(*) FROM seats;
+											QUERY PLAN
+---------------------------------------------------------------------------------
+Aggregate (cost=24.75...24.76 rows=1 width=8)
+ -> Seq Scan on seats (cost=0.00..21.39 rows=1339 width=0)
+```
+
+План состоит из двух узлов. Верхний - Aggregate, в котором происходит вычисление count, - получает данные то нижнего - Seq Scan.
+
+Обратите внимание на стоимость узла Aggre
 - `EXPLAIN ANALYZE query` - прогоняет запрос, показывает план и реальность
 
 ==Vacuum==
