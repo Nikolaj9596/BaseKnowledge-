@@ -28,3 +28,65 @@ max_parallel_workers_per_gather = 2
 ###### Вычисляется по формуле
 1 +|log3(размер таблицы min_parallel_table_scan_size) | но не больше, чем max_parallel_workers_per_gather
 
+### Explain
+
+```sql
+=> EXPLAIN SELECT * FROM flights;
+				QUERY PLAN
+-------------------------------------------
+Seq Scan on flights (cost=0.00..4564.67 rows=214867 width=63)
+```
+Выбран метод доступа Seq Scan - последовательное чтение.
+В скобкаж приведен важные значения
+* cost - оценка стоимости;
+* rows - оценка числа строк, возвращаемых операций;
+* width - оценка размера одной записи в байтах
+Стоимость указывается в некоторых условных единицах.
+
+Приводятся два числа. Первое показывает оценку ресурсов на предварительную подготовку к операции. Для последовательного сканирования этот ноль - чтобы начать возвращать данные, никакой подготовки не требуется.
+
+Второе число показыает общую оценку ресурсов для получения всех данных. Как оно получается ?
+
+Оптимизатор PostgresSQL учитывает две компоненты, дисковый ввод-вывод и ресурсы процессора. Компонента ввода-вывода рассчитывается как просзведение числа сраниц в таблице на условную стоимост чтения одной страницы:
+
+```sql
+=> SELECT relpages, current_stting('seq_page_cost'), relpages * current_setting('seq_page_cost')::real AS tatal FROM pg_class WHERE relnam='flights';
+
+relpages|current_setting|total
+2416    |1              | 2416
+```
+
+ Вторая компонента - русурсы процуссора - складывается из стоимости обработки каждой строки:
+```sql
+SELECT reltuples, current_setting('cpu_tuple_cost'),
+reltuples * current_setting('cpu_tuple_cost')::real AS total
+FROM pg_class WHERE relname='flights';
+
+relpages|current_setting|total
+214867  |0.01           | 2148.67
+```
+
+###### Агрегация
+```sql
+=> EXPLAIN SELECT count(*) FROM seats;
+											QUERY PLAN
+---------------------------------------------------------------------------------
+Aggregate (cost=24.75...24.76 rows=1 width=8)
+ -> Seq Scan on seats (cost=0.00..21.39 rows=1339 width=0)
+```
+
+План состоит из двух узлов. Верхний - Aggregate, в котором происходит вычисление count, - получает данные то нижнего - Seq Scan.
+
+Обратите внимание на стоимость узла Aggregate: нижняя цифра практически
+равна верхней. Это означает, что узел не может выдать результат, пока не обработает все данные (что вполне логично)
+
+Разницу между оценкой для Aggregate и верхней оценкой для Seq Scan - стоимость работы собственно узла Aggregate. Она вычисляется исходя из оценки ресурсов на выполнение условной операции:
+```sql
+=> SELECT reltuples, current_setting('cpu_operator_cost'),
+reltuples * current_setting('cpu_operator_cost')::real AS tatal
+FROM pg_class WHERE relname='seats':
+
+relpages|current_setting|total
+1339    |0.0025         | 3.3475
+```
+
