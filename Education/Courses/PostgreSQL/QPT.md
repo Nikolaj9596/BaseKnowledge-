@@ -118,5 +118,15 @@ Index Scan using bookings pkey on bookings (cost=0.43..8.45 rows=1 width=21)
 --------------------------------------------------------
 Index Scan using bookings pkey on bookings (cost=0.43..8.45 rows=1 width=21)
 	Index Cond: (book_ref = 'CDE08B'::bpchar)
-	Filter: (total_amount > '1000'::nu)
+	Filter: (total_amount > '1000'::numeric)
+```
+
+###### Исключительно индексное сканирование
+Если вся необходимая информация содержится в самом индексе, то нет необходимости обращаться к таблице - за исключением проверки видимости:
+```sql
+=> EXPLAIN SELECT book_ref FROM bookings WHERE book_ref <= '10000';
+								QUERY PLAN
+--------------------------------------------------------
+Index Only Scan using bookings pkey on bookings (cost=0.43...4854.01 rows=139176 width=7)
+	Index Cond: (book_ref <= '100000'::bpchar)
 ```
