@@ -93,5 +93,17 @@ relpages|current_setting|total
 ### Индексное сканирование
 
 Index Scan - Индексное сканирование
+Parallel Index Scan - Паралельное индексное сканирование
+Parallel Index Only Scan - Сканирование только индекса и карты видимости
 
-Parallel Index Scan - G
+Проверим план запроса с поиском одного значения:
+
+```sql
+=> EXPLAIN SELECT * FROM bookings WHERE book_ref = 'CDE08D';
+								QUERY PLAN
+--------------------------------------------------------
+Index Scan using bookings pkey on bookings (cost=0.43..8.45 rows=1 width=21)
+	Index Cond: (book_ref = 'CDE08B'::bpchar) //Условие при котором мы осуществляем поиск по индексу
+```
+
+Выбран метод доступа Index Scan, указано и
