@@ -106,4 +106,17 @@ Index Scan using bookings pkey on bookings (cost=0.43..8.45 rows=1 width=21)
 	Index Cond: (book_ref = 'CDE08B'::bpchar) //Условие при котором мы осуществляем поиск по индексу
 ```
 
-Выбран метод доступа Index Scan, указано и
+Выбран метод доступа Index Scan, указано имя использованного индекса. Строкой ниже указано условие доступа.
+
+В строке Index Cond план указывается только те условия, по которым происходит обращение к индексу или которые могут быть проверены на уровне индекса.
+Дополнительные условия, которые можно проверить только по таблице, отображаются в отдельной строке Filter:
+
+```sql
+=> EXPLAIN SELECT * FROM bookings
+	WHERE book_ref = 'CDE08B' AND total_amount > 1000;
+								QUERY PLAN
+--------------------------------------------------------
+Index Scan using bookings pkey on bookings (cost=0.43..8.45 rows=1 width=21)
+	Index Cond: (book_ref = 'CDE08B'::bpchar)
+	Filter: (total_amount > '1000'::nu)
+```
