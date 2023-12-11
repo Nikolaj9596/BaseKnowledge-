@@ -90,3 +90,8 @@ relpages|current_setting|total
 1339    |0.0025         | 3.3475
 ```
 
+### Индексное сканирование
+
+Index Scan - Индексное сканирование
+
+Parallel Index Scan - G
