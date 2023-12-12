@@ -132,3 +132,23 @@ Index Only Scan using bookings pkey on bookings (cost=0.43...4854.01 rows=139176
 ```
 
 Посмотрим план с помощью `EXPLAIN ANALYZE` Этот вариант команды EXPLAIN не просто показыает план, он и реально выполняет запрос, и вывод содежит больше полезных сведений.
+```sql
+=> EXPLAIN (ANALYZE, COSTS OFF, TINING OFF)
+SELECT book_ref FROM bookings WHERE book_ref <= '10000';
+
+								QUERY PLAN
+--------------------------------------------------------
+Index Only Scan using bookings pkey on bookings (actual rows=132109 loops=1)
+	Index Cond: (book_ref <= '100000'::bpchar)
+	 Heap Fetches: 132109
+Planning time: 0.062 ms
+Execution time: 145.676 ms
+```
+
+Строка Heap Fetches показывает, сколько строк было проверено с помощью таблицы. Почему пришлось обращаться к таблице в нашем случае?
+
+Потому что очимтка таблицы не выполняласт ни разу, следовательно, карта видимости не обновлена.
+```sql
+=> SELECT vacuum_count, autocacuum_count FROM pg_stat_all_tables WHERE relname='bookings';
+= VACUUM bookings;
+```
