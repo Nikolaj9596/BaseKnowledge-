@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/Courses/PostgreSQL/QPT.md",
+                "file": "Notes/tools-psql.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/Courses/PostgreSQL/QPT.md",
+                "file": "Notes/tools-psql.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Education/Courses/PostgreSQL/QPT.md",
+                "file": "Notes/tools-psql.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Education/Courses/PostgreSQL/QPT.md"
+                "file": "Notes/tools-psql.md"
               }
             }
           },
@@ -208,8 +208,9 @@
   },
   "active": "a51cca019adb26cb",
   "lastOpenFiles": [
-    "Education/Courses/PostgreSQL/postgresql-tools.md",
     "Education/Courses/PostgreSQL/QPT.md",
+    "Notes/tools-psql.md",
+    "Education/Courses/PostgreSQL/postgresql-tools.md",
     "Education/Courses/PostgreSQL/postgresql_indexes.md",
     "Education/Python/FastApi Session generator.md",
     "Education/Courses/Architecture СЛЕРМ.md",
@@ -235,7 +236,6 @@
     "Notes/Nvim Base Configuration.md",
     "Notes/AsyncPG Connector.md",
     "Projects/My Pet Project/Api Server /Архитектура проекта API Сервера.md",
-    "Notes/Exports-Metrics-Prometheus-Djang-FastApi.md",
     "Recording 20231120161622.webm",
     "Notes",
     "Education",
