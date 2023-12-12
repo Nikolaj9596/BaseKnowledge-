@@ -1,4 +1,4 @@
-# Course by prostgresql from Postgres Professional
+# Course by postgresql from Postgres Professional
 #course #postgresql 
 
 ####  Учебный курс QPT. Тема 3: Последовательный доступ
@@ -130,3 +130,5 @@ Index Scan using bookings pkey on bookings (cost=0.43..8.45 rows=1 width=21)
 Index Only Scan using bookings pkey on bookings (cost=0.43...4854.01 rows=139176 width=7)
 	Index Cond: (book_ref <= '100000'::bpchar)
 ```
+
+Посмотрим план с помощью `EXPLAIN ANALYZE` Этот вариант команды EXPLAIN не просто показыает план, он и реально выполняет запрос, и вывод содежит больше полезных сведений.

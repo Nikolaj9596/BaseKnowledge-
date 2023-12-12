@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/Courses/Architecture СЛЕРМ.md",
+                "file": "Education/Courses/PostgreSQL/QPT.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Ход работы",
+                "query": "#po",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/Courses/Architecture СЛЕРМ.md",
+                "file": "Education/Courses/PostgreSQL/QPT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Education/Courses/Architecture СЛЕРМ.md",
+                "file": "Education/Courses/PostgreSQL/QPT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Education/Courses/Architecture СЛЕРМ.md"
+                "file": "Education/Courses/PostgreSQL/QPT.md"
               }
             }
           },
@@ -209,12 +209,12 @@
   },
   "active": "a51cca019adb26cb",
   "lastOpenFiles": [
+    "Education/Courses/Architecture СЛЕРМ.md",
     "Notes/tools-psql.md",
     "Education/Courses/PostgreSQL/QPT.md",
     "Education/Courses/PostgreSQL/postgresql-tools.md",
     "Education/Courses/PostgreSQL/postgresql_indexes.md",
     "Education/Python/FastApi Session generator.md",
-    "Education/Courses/Architecture СЛЕРМ.md",
     "Projects/My Pet Project/Api Server /Bot App/Architecture Bot App.md",
     "Projects/My Pet Project/Api Server /Trading Platform App/Architecture Trading Platform App.md",
     "Education/Courses/SQL/SELECT.md",
