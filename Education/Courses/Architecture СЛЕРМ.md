@@ -121,6 +121,7 @@ Newspaper --o Library
 ##### Композиция
 Отношение композиции является частным случаем отношения агрегации.Однако у него есть одно отличие - класс-часть, которые он соединяет с классом-целым, не могут существовать обособленно
 
+
 ```plantuml
 class Book{}
 class Topic{}
@@ -129,4 +130,14 @@ class Page{}
 Topic --* Book
 Page --* Book
 ```
+
+## ==SOLID==
+
+### Single Responsibility principle (SRP)
+
+Класс должен иметь лишь одну причину для изменений
+*A class should have one, and only one, reason to change*
+
+Модуль должен отвечать перед одним и только одним актором
+*A module should be responsible to one, and only one, actor*
 
