@@ -153,5 +153,27 @@ class Creater{
 	+ someFunc()
 	+ createProduct(): Product
 }
+
+class ConcreteCretor1{
+	+ createProduct(): Product
+}
+
+class ConcreteCretor2{
+	+ createProduct(): Product
+}
+
+class ConcreteProduct2{
+}
+
+class ConcreteProduct1{
+}
+
+interface Product{
+	+ doSmth()
+}
+
+Creater ..> Product
+ConcreteCretor1 --
 ```
+
 
