@@ -51,4 +51,51 @@
 
 ### Поиск документа
 
-`GET` **my_blogs/_serch**
+`GET` **my_blogs/_search**
+```json
+{
+	"took": 1
+	"time_out": false,
+	"_shards": {
+		"total": 5,
+		"successful": 5,
+		"skipped": 0,
+		"failed": 0
+	},
+	"hits": {
+		"total": 2,
+		"max_score": 1.0,
+		"hits":[...]
+	}
+}
+```
+
+### Создание индекса
+- Если индекс не создан и мы добавляем документ то индекс создается автоматически
+- при создании индекса можно указать настройки и маппинг
+`PUT` **/my_blogs**
+```json
+{
+	"settings": {...},
+	"mappings": {...}
+}
+```
+
+### Mapping
+`PUT` **my_index**
+```json
+{
+	"mappings": {
+		"doc":{
+			"properties":{
+				"title": {"type": "text"},
+				"name": {"type": "text"},
+				"age": {"type": "integer"},
+				"created": {
+					"type": 
+				}
+			}	
+		}
+	}
+}
+```
