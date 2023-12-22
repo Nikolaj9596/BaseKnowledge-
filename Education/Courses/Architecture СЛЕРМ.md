@@ -182,3 +182,38 @@ ConcreteProduct2 ..> Product
 ```
 
 
+### Абстрактная фабрика
+
+```plantuml
+class Client{
+	+ factory: AbstractFactory
+}
+
+class ConcreteFactory1{
+	+ createProductA(): ProductA
+	+ createProductB(): ProductB
+}
+class ConcreteFactory2{
+	+ createProductA(): ProductA
+	+ createProductB(): ProductB
+}
+
+class AbstractFactory{
+	+ createProductA(): ProductA
+	+ createProductB(): ProductB
+}
+
+class ConcreteProductA1{}
+class ConcreteProductA2{}
+class AbstractProductA{}
+
+class ConcreteProductB1{}
+class ConcreteProductB2{}
+class AbstractProductB{}
+
+Client --> AbstractFactory
+ConcreteFactory1 ..|> AbstractFactory
+ConcreteFactory2 ..|> AbstractFactory
+```
+
+
