@@ -198,18 +198,18 @@ class ConcreteFactory2{
 	+ createProductB(): ProductB
 }
 
-class AbstractFactory{
+interface AbstractFactory{
 	+ createProductA(): ProductA
 	+ createProductB(): ProductB
 }
 
 class ConcreteProductA1{}
 class ConcreteProductA2{}
-class AbstractProductA{}
+interface AbstractProductA{}
 
 class ConcreteProductB1{}
 class ConcreteProductB2{}
-class AbstractProductB{}
+interface AbstractProductB{}
 
 Client --> AbstractFactory
 ConcreteFactory1 ..|> AbstractFactory
@@ -231,4 +231,20 @@ ConcreteProductB2 ..|> AbstractProductB
 - Выделяет код производства продуктов в одно место, упрощая поддержку кода
 - Упрощает добавление новых продуктов в программу
 ###### Минусы
-- Требует наличия всех типов продуктов в ках
+- Требует наличия всех типов продуктов в каждой реализации
+
+### Строитель
+```plantuml
+interface Builder{
+	+ reset()
+	+ buildPart1()
+	+ buildPart2()
+	+ getResult()
+}
+
+class Client{
+ - builder: Builder
+}
+
+
+```

@@ -208,8 +208,9 @@
   },
   "active": "a51cca019adb26cb",
   "lastOpenFiles": [
-    "Education/ElasticSearch/ElasticSearch.md",
+    "Education/Courses/Trading/Scalpin Course 1/Trading.md",
     "Education/Courses/Architecture СЛЕРМ.md",
+    "Education/ElasticSearch/ElasticSearch.md",
     "Education/ElasticSearch",
     "Education/Courses/PostgreSQL/QPT.md",
     "Notes/tools-psql.md",
@@ -236,7 +237,6 @@
     "Notes/Kubernetes Command.md",
     "Notes/BestDockerfileForNvim.md",
     "Notes/Nvim Base Configuration.md",
-    "Notes/AsyncPG Connector.md",
     "Recording 20231120161622.webm",
     "Notes",
     "Education",
