@@ -132,12 +132,48 @@
 		{
 			"_index": "blogs",
 			"_type": "_doc",
-			"_id": "oi3uowfolueoiwjfeoiwo",
-			"_score": 8.810195,
+			"_id": "jdflfsjdlksflkdfjlks",
+			"_score": 8.310195,
 			"_source": {
-				"title": "Ingest Node: A Client's Perspecdtive"
+				"title": "Elasticsearch for Apache Hadoop"
 			}
 		}
 	]
 }
 ```
+
+По умолчанию возвращается максимум 10 объектов
+- **total** - Общее кол-во найденых объектов
+- **_score** - Релевантность, чем выше это значение тем выше объект будет в поиске
+
+#### Search by 2 words
+`GET` **blogs/_search**
+```json
+{
+	"query": {
+		"match": {
+			"content": {
+				"query": "ingest nodes",
+				"operator": "and"
+			}	
+		}
+	}
+}
+```
+
+#### Search with indication minimum_should_match
+`GET` **blogs/_search**
+```json
+{
+	"query": {
+		"match": {
+			"content": {
+				"query": "ingest nodes logstash",
+				"minimum_should_match": 2
+			}	
+		}
+	}
+}
+```
+
+### Search by phrase
