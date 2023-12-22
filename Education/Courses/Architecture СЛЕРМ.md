@@ -215,7 +215,12 @@ Client --> AbstractFactory
 ConcreteFactory1 ..|> AbstractFactory
 ConcreteFactory2 ..|> AbstractFactory
 
-ConcreteFactory1:
+ConcreteFactory1 ..> ConcreteProductA1
+ConcreteFactory1 ..> ConcreteProductB1
+ConcreteFactory2 ..> ConcreteProductA2
+ConcreteFactory2 ..> ConcreteProductB2
+
+ConcreteProductA1 ..|>
 ```
 
 
