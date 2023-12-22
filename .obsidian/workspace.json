@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/Courses/Architecture СЛЕРМ.md",
+                "file": "Education/ElasticSearch/ElasticSearch.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/Courses/Architecture СЛЕРМ.md",
+                "file": "Education/ElasticSearch/ElasticSearch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Education/Courses/Architecture СЛЕРМ.md",
+                "file": "Education/ElasticSearch/ElasticSearch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Education/Courses/Architecture СЛЕРМ.md"
+                "file": "Education/ElasticSearch/ElasticSearch.md"
               }
             }
           },
@@ -208,8 +208,10 @@
   },
   "active": "a51cca019adb26cb",
   "lastOpenFiles": [
-    "Education/Courses/PostgreSQL/QPT.md",
     "Education/Courses/Architecture СЛЕРМ.md",
+    "Education/ElasticSearch/ElasticSearch.md",
+    "Education/ElasticSearch",
+    "Education/Courses/PostgreSQL/QPT.md",
     "Notes/tools-psql.md",
     "Education/Courses/PostgreSQL/postgresql-tools.md",
     "Education/Courses/PostgreSQL/postgresql_indexes.md",
@@ -235,7 +237,6 @@
     "Notes/BestDockerfileForNvim.md",
     "Notes/Nvim Base Configuration.md",
     "Notes/AsyncPG Connector.md",
-    "Projects/My Pet Project/Api Server /Архитектура проекта API Сервера.md",
     "Recording 20231120161622.webm",
     "Notes",
     "Education",
@@ -250,7 +251,6 @@
     "Projects/My Pet Project/Api Server /Bot App",
     "Education/Courses/RabbitMQ",
     "Projects/My Pet Project/Api Server /Trading Platform App",
-    "Projects/My Pet Project/Api Server /User App",
     "Untitled.canvas"
   ]
 }
