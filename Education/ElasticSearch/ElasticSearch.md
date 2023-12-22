@@ -275,3 +275,48 @@ GET blogs/_search?q=content:"open data"~1
 	}
 }
 ```
+
+#### Filter 
+
+`GET` **blogs/_search**
+```json
+{
+	"query": {
+		"bool": {
+			"must": {
+				"match_phrase": {
+					"content": "elastic stack"
+				}
+			},
+			"filter": {
+				"range": {
+					"publish_date": {
+						"lt": "2017-01-01"
+					}
+				}
+			},
+		}
+	}
+}
+```
+
+#### Must + Should
+поиск будет более релевантный
+
+`GET` **blogs/_search**
+```json
+{
+	"query": {
+		"bool": {
+			"must": [
+				"match": {"title": "elastic"}
+			],
+			"should": [
+				{"match": {"title": "stack"}},
+				{"match": {"title": "query"}},
+				{"match": {"title": "speed"}}
+			]
+		}
+	}
+}
+```
