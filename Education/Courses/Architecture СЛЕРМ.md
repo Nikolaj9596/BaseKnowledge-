@@ -220,7 +220,15 @@ ConcreteFactory1 ..> ConcreteProductB1
 ConcreteFactory2 ..> ConcreteProductA2
 ConcreteFactory2 ..> ConcreteProductB2
 
-ConcreteProductA1 ..|>
+ConcreteProductA1 ..|> AbstractProductA
+ConcreteProductA2 ..|> AbstractProductA
+ConcreteProductB1 ..|> AbstractProductB
+ConcreteProductB2 ..|> AbstractProductB
 ```
 
-
+###### Плюсы
+- Гарантирует сочетаемость создаваемых продуктов
+- Выделяет код производства продуктов в одно место, упрощая поддержку кода
+- Упрощает добавление новых продуктов в программу
+###### Минусы
+- Требует наличия всех типов продуктов в ках
