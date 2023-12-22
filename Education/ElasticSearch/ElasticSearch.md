@@ -33,3 +33,22 @@
 	"_primary_term": 1
 }
 ```
+
+### Обновление документа
+
+`POST` **my_blogs/_oc/1/_update
+```json
+{
+	"doc": {
+		"date": "September 26, 2016"
+	}
+}
+```
+
+### Удаление документа
+
+`DELETE` **my_blogs/_doc/1**
+
+### Поиск документа
+
+`GET` **my_blogs/_serch**
