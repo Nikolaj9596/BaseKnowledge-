@@ -177,3 +177,35 @@
 ```
 
 ### Search by phrase
+`GET` **blogs/_search**
+```json
+{
+	"query": {
+		"match_phrase": {
+			"content": {
+				"query": "open data",
+				"slop": 1
+			}	
+		}
+	}
+}
+```
+```bash
+GET blogs/_search?q=content:"open data"~1
+```
+- Поиск по фразе
+- **slop** - Этот параметр указывает что между словами в фразе может стоять одно слово
+### Search by range
+`GET` **blogs/_search**
+```json
+{
+	"query": {
+		"range": {
+			"publish_date": {
+				"query": "open data",
+				"slop": 1
+			}	
+		}
+	}
+}
+```
