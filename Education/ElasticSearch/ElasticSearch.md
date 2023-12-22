@@ -202,10 +202,15 @@ GET blogs/_search?q=content:"open data"~1
 	"query": {
 		"range": {
 			"publish_date": {
-				"query": "open data",
-				"slop": 1
+				"gte": "2017-12-01",
+				"lt": "2018-01-01"
 			}	
 		}
 	}
 }
 ```
+
+### The bool query
+
+- **must** - The query must appear in matching documents and will contribute to the _score
+-  **must_not** - The query **must not** appea
