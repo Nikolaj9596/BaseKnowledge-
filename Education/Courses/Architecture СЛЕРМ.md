@@ -246,5 +246,29 @@ class Client{
  - builder: Builder
 }
 
+class ConcreteBuilder1{
+	+ reset()
+	+ buildPart1()
+	+ buildPart2()
+	+ getResult(): Proudct1
+}
 
+class ConcreteBuilder2{
+	+ reset()
+	+ buildPart1()
+	+ buildPart2()
+	+ getResult(): Proudct2
+}
+
+class Product1{}
+class Product2{}
+
+Client::build --> Builder
+ConcreteBuilder1 ..|> Builder
+ConcreteBuilder2 ..|> Builder
+ConcreteBuilder1 --> Product1
+ConcreteBuilder1 --> Product2
 ```
+
+###### Плюсы
+###### Минусы
