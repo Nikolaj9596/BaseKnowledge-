@@ -214,6 +214,8 @@ class AbstractProductB{}
 Client --> AbstractFactory
 ConcreteFactory1 ..|> AbstractFactory
 ConcreteFactory2 ..|> AbstractFactory
+
+ConcreteFactory1:
 ```
 
 
