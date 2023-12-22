@@ -212,5 +212,66 @@ GET blogs/_search?q=content:"open data"~1
 
 ### The bool query
 
-- **must** - The query must appear in matching documents and will contribute to the _score
--  **must_not** - The query **must not** appea
+- **must** - The query **must** appear in matching documents and will contribute to the _score
+-  **must_not** - The query **must not** appear in matching documents
+- **should** - The query should optionally appear in matching documents, and matches contribute to the _score
+- **filter** - The query **must** appear in matching documents, but it will have no effect on the _score
+
+###### Syntax
+`GET` **my_index/_search**
+```json
+{
+	"query": {
+		"bool": {
+			"must": [{}],
+			"must_not": [{}],
+			"filter": [{}],
+			"should": [{}],
+		}
+	}
+}
+```
+
+#### The must_not Clause
+`GET` **my_index/_search**
+```json
+{
+	"query": {
+		"bool": {
+			"must": {
+				"match": {
+					"content": "logstash"
+				}
+			},
+			"must_not": {
+				"match": {
+					"category": "releases"
+				}
+			},
+		}
+	}
+}
+```
+
+#### Should
+Не влияет на сам поиск но добавляет score
+
+`GET` **blogs/_search**
+```json
+{
+	"query": {
+		"bool": {
+			"must": {
+				"match_phrase": {
+					"content": "elastic stack"
+				}
+			},
+			"should": {
+				"match_phrase": {
+					"author": "shay banon"
+				}
+			},
+		}
+	}
+}
+```
