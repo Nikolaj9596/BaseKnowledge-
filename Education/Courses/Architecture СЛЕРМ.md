@@ -149,7 +149,7 @@ Page --* Book
 
 ##### Фабричный метод
 ```plantuml
-class Creater{
+class Creator{
 	+ someFunc()
 	+ createProduct(): Product
 }
@@ -172,8 +172,13 @@ interface Product{
 	+ doSmth()
 }
 
-Creater ..> Product
-ConcreteCretor1 --
+Creator ..> Product
+ConcreteCretor1 --|> Creator
+ConcreteCretor2 --|> Creator
+ConcreteCretor1 ..> ConcreteProduct1: create
+ConcreteCretor2 ..> ConcreteProduct2: create
+ConcreteProduct1 ..> Product
+ConcreteProduct2 ..> Product
 ```
 
 
