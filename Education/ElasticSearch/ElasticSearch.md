@@ -92,10 +92,52 @@
 				"name": {"type": "text"},
 				"age": {"type": "integer"},
 				"created": {
-					"type": 
+					"type": "date",
+					"format": "strict_date_optional_time||epoch_millis"
 				}
 			}	
 		}
 	}
+}
+```
+
+### Search Query
+
+`GET` **my_blogs/_search**
+```json
+{
+	"query": {
+		"match": {
+			"FIELD": "TEXT"
+		}
+	}
+}
+```
+
+#### Response Search
+```json
+"hits": {
+	"total": 241,
+	"max_score": 8.810195,
+	"hits": [
+		{
+			"_index": "blogs",
+			"_type": "_doc",
+			"_id": "oi3uowfolueoiwjfeoiwo",
+			"_score": 8.810195,
+			"_source": {
+				"title": "Ingest Node: A Client's Perspecdtive"
+			}
+		},
+		{
+			"_index": "blogs",
+			"_type": "_doc",
+			"_id": "oi3uowfolueoiwjfeoiwo",
+			"_score": 8.810195,
+			"_source": {
+				"title": "Ingest Node: A Client's Perspecdtive"
+			}
+		}
+	]
 }
 ```
