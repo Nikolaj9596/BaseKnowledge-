@@ -382,5 +382,41 @@ Composite o--> Component
 
 ###### Плюсы
 - Упрощает работу со сложным деревом компонентов
-- Облегчает добав
+- Облегчает добавление новых типов компонентов
 ###### Минусы
+- Общий тип компонентов
+
+### Декоратор
+
+```plantuml
+class Client{}
+interface Component{
+	+ execute()
+}
+
+class ConcreteComponent{
+	+ execute()
+}
+
+class BaseDecorator{
+	- wrappee: Component
+	+ BaseDecorator(Component)
+	+ execute()
+}
+class ConcreateDecorators{
+	+ execute()
+	+ extra()
+}
+
+Client --> Component
+ConcreteComponent ..|> Component
+BaseDecorator ..|> Component
+BaseDecorator::BaseDecorator o--> Component
+ConcreateDecorators --|> BaseDecorator
+```
+###### Плюсы
+- Большая гибкость при сравнении с наследованием
+- Декомпозиция функционала
+- Позволяет подменять обязанности на лету
+###### Минусы
+- Сложности при конфигурировании многократно задекорированные объекты
