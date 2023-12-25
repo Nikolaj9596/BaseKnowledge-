@@ -1,5 +1,5 @@
 # Фабричный метод
-#pattern #generating
+#pattern #generating #architecture 
 
 ```plantuml
 class Creator{
