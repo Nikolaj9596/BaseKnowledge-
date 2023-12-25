@@ -420,3 +420,52 @@ ConcreateDecorators --|> BaseDecorator
 - Позволяет подменять обязанности на лету
 ###### Минусы
 - Сложности при конфигурировании многократно задекорированные объекты
+### Фасад
+```plantuml
+class Client{}
+class Facade{
+	+ someOperation()
+}
+
+class SomeSubsystem1{}
+class SomeSubsystem2{}
+
+Client --> Facade
+Facade ..> SomeSubsystem1
+Facade ..> SomeSubsystem2
+```
+
+###### Плюсы
+- Изоляция сложности
+###### Минусы
+- Фасад может сильно разрастись
+### Легковес
+
+```plantuml
+class Client{}
+class Item{
+	- uniqueState
+	- flyweight
+	+ someOperation()
+}
+class FlyweightFactory{
+	- cache: Flyweight[]
+	+ getFlyweight(key)
+}
+
+class Flyweight{
+	 - repeatingState
+	 - someOperation(uniqueState)
+}
+
+Client *--> Item
+Item --> FlyweightFactory
+Item --> Flyweight
+FlyweightFactory o--> Flyweight
+```
+
+###### Плюсы
+- Экономия оперативной памяти
+###### Минусы
+- Расход процессорного времени(на поиск в кэше/словаре)
+- Уменьшение связности
