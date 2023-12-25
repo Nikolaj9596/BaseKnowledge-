@@ -347,5 +347,40 @@ interface Implementation{
 	+ method3()
 }
 
-interface CoImplementation{}
+interface ConcreteImplementation{}
+
+Client --> Abstraction
+Abstraction o--> Implementation
+ConcreteImplementation ..|> Implementation
 ```
+
+###### Плюсы
+- Реализует принцип открфтости/закрытости
+- Улучшает масштабируемость
+###### Минусы
+- Усложняет структуру и читаемость кода из-за введения дополнительных классов
+
+### Комопновщик
+```plantuml
+class Client{}
+interface Component{
+	+ execute()
+}
+class Leaf{}
+class Composite{
+	- children: Component[]
+	+ add(Component)
+	+ remove(Component)
+	+ execute()
+}
+
+Client --> Component
+Leaf ..|> Component
+Composite ..|> Component
+Composite o--> Component
+```
+
+###### Плюсы
+- Упрощает работу со сложным деревом компонентов
+- Облегчает добав
+###### Минусы
