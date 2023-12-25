@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/Courses/Architecture/Patterns/Structural/Adapter.md",
+                "file": "Education/Courses/Architecture/Patterns/Structural/Bridge.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/Courses/Architecture/Patterns/Structural/Adapter.md",
+                "file": "Education/Courses/Architecture/Patterns/Structural/Bridge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Education/Courses/Architecture/Patterns/Structural/Adapter.md",
+                "file": "Education/Courses/Architecture/Patterns/Structural/Bridge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Education/Courses/Architecture/Patterns/Structural/Adapter.md"
+                "file": "Education/Courses/Architecture/Patterns/Structural/Bridge.md"
               }
             }
           },
@@ -220,15 +220,15 @@
   },
   "active": "a51cca019adb26cb",
   "lastOpenFiles": [
-    "Education/Courses/Architecture/Patterns/Generating/Abstract Factory.md",
-    "Education/Courses/Architecture/Patterns/Structural/Adapter.md",
     "Education/Courses/Architecture/Architecture СЛЕРМ.md",
+    "Education/Courses/Architecture/Patterns/Structural/Bridge.md",
+    "Education/Courses/Architecture/Patterns/Structural/Adapter.md",
+    "Education/Courses/Architecture/Patterns/Generating/Abstract Factory.md",
     "Education/Courses/Architecture/Patterns/Structural/Proxy.md",
     "Education/Courses/Architecture/Patterns/Structural/Flyweight.md",
     "Education/Courses/Architecture/Patterns/Structural/Facade.md",
     "Education/Courses/Architecture/Patterns/Structural/Decorator.md",
     "Education/Courses/Architecture/Patterns/Structural/Composite.md",
-    "Education/Courses/Architecture/Patterns/Structural/Bridge.md",
     "Education/Courses/Architecture/Patterns/Structural",
     "Education/Courses/Architecture/Patterns/Generating/Builder.md",
     "Education/Courses/Architecture/Patterns/Generating/Abstract Factory Method.md",
