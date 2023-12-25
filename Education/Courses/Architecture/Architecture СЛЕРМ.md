@@ -298,3 +298,54 @@ ConcretePrototype ..|> Prototype
 - Меньше повторяющегося кода инициализации объектов
 ###### Минусы
 - Сложности при клонировании объектов, имеющих ссылки на другие
+
+#### Структурные паттерны
+
+##### Адаптер
+
+```plantuml
+
+class Client{}
+
+interface Target{
+	+ method(data)
+}
+
+class Adapter{
+	- adaptee: SpecificService
+	+ method(data)
+}
+
+class SpecificService{
+	+ serviceMethod(specificData)
+}
+
+Client --> Target
+Adapter ..|> Target
+Adapter --> SpecificService
+```
+
+###### Плюсы
+- Создает "мост" между интерфейсами
+- Изолирует от клиента подробности преобразования различных интерфейсов
+###### Минусы
+- Сложно преобразовать параметры вызовов функций, если в адаптируемом интерфейсе другие абстракции
+
+#### Мост
+```plantuml
+
+class Client{}
+
+class Abstraction{
+	- impl: Implementation
+	+ method(data)
+}
+
+interface Implementation{
+	+ method1()
+	+ method2()
+	+ method3()
+}
+
+interface CoImplementation{}
+```
