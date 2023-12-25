@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/Courses/Architecture/Architecture СЛЕРМ.md",
+                "file": "Education/Courses/Architecture/Patterns/Structural/Adapter.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/Courses/Architecture/Architecture СЛЕРМ.md",
+                "file": "Education/Courses/Architecture/Patterns/Structural/Adapter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Education/Courses/Architecture/Architecture СЛЕРМ.md",
+                "file": "Education/Courses/Architecture/Patterns/Structural/Adapter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Education/Courses/Architecture/Architecture СЛЕРМ.md"
+                "file": "Education/Courses/Architecture/Patterns/Structural/Adapter.md"
               }
             }
           },
@@ -220,11 +220,19 @@
   },
   "active": "a51cca019adb26cb",
   "lastOpenFiles": [
+    "Education/Courses/Architecture/Patterns/Generating/Abstract Factory.md",
+    "Education/Courses/Architecture/Patterns/Structural/Adapter.md",
+    "Education/Courses/Architecture/Architecture СЛЕРМ.md",
+    "Education/Courses/Architecture/Patterns/Structural/Proxy.md",
+    "Education/Courses/Architecture/Patterns/Structural/Flyweight.md",
+    "Education/Courses/Architecture/Patterns/Structural/Facade.md",
+    "Education/Courses/Architecture/Patterns/Structural/Decorator.md",
+    "Education/Courses/Architecture/Patterns/Structural/Composite.md",
+    "Education/Courses/Architecture/Patterns/Structural/Bridge.md",
+    "Education/Courses/Architecture/Patterns/Structural",
     "Education/Courses/Architecture/Patterns/Generating/Builder.md",
     "Education/Courses/Architecture/Patterns/Generating/Abstract Factory Method.md",
-    "Education/Courses/Architecture/Patterns/Generating/Abstract Factory.md",
     "Education/Courses/Architecture/Patterns/Generating/Prototype.md",
-    "Education/Courses/Architecture/Architecture СЛЕРМ.md",
     "Education/Courses/Architecture/Patterns/Generating/Abstract Factory",
     "Education/Courses/Architecture/Patterns/Generating/AbstractFactoryMethod",
     "Education/Courses/Architecture/Patterns/Generating",
@@ -247,15 +255,7 @@
     "Notes/alembic.md",
     "Education/Courses",
     "Education/Courses/RabbitMQ/Course Slerm RabbitMQ.md",
-    "Projects/My Pet Project/Api Server /Ход работы.md",
-    "Notes/Django clear permission.md",
-    "Education/Python/Django Material View.md",
-    "Notes/Kubernetes command for create service account.md",
-    "Projects/My Pet Project/Api Server /Auth App/Architecture Auth App.md",
-    "Notes/docker cache in ci-cd.md",
-    "Notes/Linux tools for check use port on host.md",
     "Recording 20231120161622.webm",
-    "Notes",
     "Untitled 7.canvas",
     "Untitled 6.canvas",
     "Untitled 5.canvas",
