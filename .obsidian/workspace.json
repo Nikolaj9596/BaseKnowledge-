@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/Courses/Architecture/Architecture СЛЕРМ.md",
+                "file": "Education/Courses/Architecture/Patterns/Structural/Proxy.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/Courses/Architecture/Patterns/Structural/Flyweight.md",
+                "file": "Education/Courses/Architecture/Patterns/Structural/Proxy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Education/Courses/Architecture/Patterns/Structural/Flyweight.md",
+                "file": "Education/Courses/Architecture/Patterns/Structural/Proxy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Education/Courses/Architecture/Patterns/Structural/Flyweight.md"
+                "file": "Education/Courses/Architecture/Patterns/Structural/Proxy.md"
               }
             }
           },
@@ -218,7 +219,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a51cca019adb26cb",
+  "active": "8697534b4505651d",
   "lastOpenFiles": [
     "Education/Courses/Architecture/Architecture СЛЕРМ.md",
     "Education/Courses/Architecture/Patterns/Structural/Flyweight.md",
