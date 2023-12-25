@@ -463,7 +463,6 @@ Item --> FlyweightFactory
 Item --> Flyweight
 FlyweightFactory o--> Flyweight
 ```
-
 ###### Плюсы
 - Экономия оперативной памяти
 ###### Минусы
