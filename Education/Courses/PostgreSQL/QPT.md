@@ -206,4 +206,22 @@ Time: 6913,356 ms
 ```sql
 => CREATE INDEX ON ticket_flights(amount);
 ```
+Производительность улучшается незанчительно или вовсе запрос начинает отрабатывать медленее из за того что у нас в условии два раза изпользуется amount для планировщика это два отдельныж поля
+3. Высчитываем сначало поля и затем используем их в запросе
+Чтобы получить согласованные данные, используем уровень изоляции Repeatable Read:
+```sql
+=> BEGIN ISOLATION LEVEL REPETABLE READ;
+=> SELECT max(amount) AS a_max, min(amount) AS a_min FROM ticket_flights \gset
 
+=> SELECT a.aircraft code, (
+	SELECT round(avg(tf.amount))
+	FROM flights f
+		JOIN ticket_flights tf ON tf.flight_id = f.flight_id
+	WHERE f.aircraft_code = a.aircraft_code
+		AND tf.amount > :a_min
+		AND tf.amount > :a_max
+)
+FROM aircraft a
+GROUP BY a.aircraft_code;
+Time: 49622.273 ms
+```
