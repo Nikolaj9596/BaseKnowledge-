@@ -195,7 +195,7 @@ Execution time: 145.676 ms
 		JOIN ticket_flights tf ON tf.flight_id = f.flight_id
 	WHERE f.aircraft_code = a.aircraft_code
 		AND tf.amount > (SELECT min(amount) FROM ticket flights)
-		AND tf.amount > (SELECT max(amount) FROM ticket flights)
+		AND tf.amount < (SELECT max(amount) FROM ticket flights)
 )
 FROM aircraft a
 GROUP BY a.aircraft_code;
@@ -219,9 +219,23 @@ Time: 6913,356 ms
 		JOIN ticket_flights tf ON tf.flight_id = f.flight_id
 	WHERE f.aircraft_code = a.aircraft_code
 		AND tf.amount > :a_min
-		AND tf.amount > :a_max
+		AND tf.amount < :a_max
 )
 FROM aircraft a
 GROUP BY a.aircraft_code;
 Time: 49622.273 ms
 ```
+
+4. Мы читаем один и те же таблицы несколько ра в цикле из-за того, что сумма вычисляется в коррелированном подзапросе. Планировщик не может раскрыть его самостоятельно, но мы можем сделать это в ручную. Обратите внимание на необходимость левых соединений.
+```sql
+
+=> SELECT a.aircraft code, round(avg(tf.amount))
+	FROM aircraft a
+		 LEFT JOIN flights f ON f.aircraft_code = a.aircraft_code
+		 LEFT JOIN ticket_flights tf ON tf.flight_id = f.flight_id
+			 AND tf.amount > :a_min
+			 AND tf.amount < :a_max
+GROUP BY a.aircraft_code;
+Time: 49622.273 ms
+```
+
