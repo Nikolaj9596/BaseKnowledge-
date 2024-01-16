@@ -11,8 +11,12 @@
             "id": "c630d0d9dbeb2b8f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Education/Courses/PostgreSQL/QPT.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -94,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5004348754883
+    "width": 315.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "a4aebba3ad4bd133",
@@ -110,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/Courses/Architecture/Patterns/Behavior/Template_Method.md",
+                "file": "Education/Courses/PostgreSQL/QPT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Education/Courses/Architecture/Patterns/Behavior/Template_Method.md",
+                "file": "Education/Courses/PostgreSQL/QPT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Education/Courses/Architecture/Patterns/Behavior/Template_Method.md"
+                "file": "Education/Courses/PostgreSQL/QPT.md"
               }
             }
           },
@@ -202,7 +207,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "10f8a206fcbf66f3",
+  "active": "c630d0d9dbeb2b8f",
   "lastOpenFiles": [
     "Education/Courses/Architecture/Patterns/Behavior/Visitor.md",
     "Education/Courses/Architecture/Patterns/Behavior/Template_Method.md",

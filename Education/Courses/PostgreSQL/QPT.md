@@ -184,3 +184,26 @@ Execution time: 145.676 ms
 Отвечает за ограничение используемой памяти параметр `work_mem`
 
 
+###  Пример оптимизации запроса
+
+1. Начальный запрос
+
+```sql
+=> SELECT a.aircraft code, (
+	SELECT round(avg(tf.amount))
+	FROM flights f
+		JOIN ticket_flights tf ON tf.flight_id = f.flight_id
+	WHERE f.aircraft_code = a.aircraft_code
+		AND tf.amount > (SELECT min(amount) FROM ticket flights)
+		AND tf.amount > (SELECT max(amount) FROM ticket flights)
+)
+FROM aircraft a
+GROUP BY a.aircraft_code;
+Time: 6913,356 ms
+```
+
+2. Первая попытка оптимизировать запрос
+```sql
+=> CREATE INDEX ON ticket_flights(amount);
+```
+
