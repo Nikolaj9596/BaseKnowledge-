@@ -236,6 +236,11 @@ Time: 49622.273 ms
 			 AND tf.amount > :a_min
 			 AND tf.amount < :a_max
 GROUP BY a.aircraft_code;
-Time: 49622.273 ms
+Time: 18077.678 ms
 ```
 
+5. Можно еще немного улучшить результат, увеличмв занчение параметра work_mem если Batches согласно плану не влезает в 1, чтобы хеш-соединение таблицы flights и  ticket_flights выполнить за один подход
+```sql
+=> SET work_mem = '8MB'
+Time: 17077.678 ms
+```
