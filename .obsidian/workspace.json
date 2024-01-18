@@ -23,9 +23,11 @@
             "id": "071d96355cc6f05a",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.3"
+                "file": "Education/Courses/NeirNewtwork/Base Knowlage.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -125,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Lua Plugin/Translate plugin for nvim on lua.md",
+                "file": "Education/Courses/NeirNewtwork/Base Knowlage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Lua Plugin/Translate plugin for nvim on lua.md",
+                "file": "Education/Courses/NeirNewtwork/Base Knowlage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Lua Plugin/Translate plugin for nvim on lua.md"
+                "file": "Education/Courses/NeirNewtwork/Base Knowlage.md"
               }
             }
           },
@@ -221,6 +223,8 @@
   },
   "active": "071d96355cc6f05a",
   "lastOpenFiles": [
+    "Education/Courses/NeirNewtwork/Base Knowlage.md",
+    "Education/Courses/NeirNewtwork",
     "Projects/Lua Plugin/New plug for docker.md",
     "Education/Courses/PostgreSQL/QPT.md",
     "Education/Courses/Architecture/Patterns/Behavior/Visitor.md",
@@ -254,9 +258,7 @@
     "Education/Courses/Architecture/Patterns/Generating",
     "Education/Courses/Architecture/Patterns",
     "Education/Courses/Architecture",
-    "Education/Courses/Trading/Scalpin Course 1/Trading.md",
     "Education/ElasticSearch",
-    "Education/Courses/PostgreSQL",
     "Untitled 7.canvas",
     "Untitled 6.canvas",
     "Untitled 5.canvas",
