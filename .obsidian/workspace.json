@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/My Pet Project/Api Server /Ход работы.md",
+                "file": "Projects/My Pet Project/Ход работы v2.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/My Pet Project/Api Server /Ход работы.md",
+                "file": "Projects/My Pet Project/Ход работы v2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/My Pet Project/Api Server /Ход работы.md",
+                "file": "Projects/My Pet Project/Ход работы v2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/My Pet Project/Api Server /Ход работы.md"
+                "file": "Projects/My Pet Project/Ход работы v2.md"
               }
             }
           },
@@ -223,6 +223,8 @@
   },
   "active": "071d96355cc6f05a",
   "lastOpenFiles": [
+    "Projects/My Pet Project/Api Server /Ход работы.md",
+    "Projects/My Pet Project/Ход работы v2.md",
     "Projects/My Pet Project/Api Server /Auth App/Architecture Auth App.md",
     "Projects/My Pet Project/Api Server /Trading Platform App/Architecture Trading Platform App.md",
     "Projects/My Pet Project/Api Server /User App/Architecture User App.md",
@@ -249,8 +251,6 @@
     "Education/Courses/Architecture/Patterns/Behavior/Mediator.md",
     "Education/Courses/Architecture/Patterns/Behavior/Interator.md",
     "Education/Courses/Architecture/Patterns/Behavior/Interpreter.md",
-    "Education/Courses/Architecture/Patterns/Behavior/Command.md",
-    "Education/Courses/Architecture/Patterns/Behavior/Chain_Of_Responsibility.md",
     "Education/Courses/Architecture/Patterns/Behavior",
     "Education/Courses/Architecture/Patterns/Structural",
     "Education/Courses/Architecture/Patterns/Generating/Abstract Factory",
