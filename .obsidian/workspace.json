@@ -25,14 +25,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/Courses/NeirNewtwork/Base Knowlage.md",
+                "file": "Projects/My Pet Project/Api Server /Bot App/Architecture Bot App.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "ea865de7b6ed5503",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -111,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 258.5086555480957
   },
   "right": {
     "id": "a4aebba3ad4bd133",
@@ -127,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/Courses/NeirNewtwork/Base Knowlage.md",
+                "file": "Projects/My Pet Project/Api Server /Bot App/Architecture Bot App.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Education/Courses/NeirNewtwork/Base Knowlage.md",
+                "file": "Projects/My Pet Project/Api Server /Bot App/Architecture Bot App.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Education/Courses/NeirNewtwork/Base Knowlage.md"
+                "file": "Projects/My Pet Project/Api Server /Bot App/Architecture Bot App.md"
               }
             }
           },
@@ -221,7 +231,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "071d96355cc6f05a",
+  "active": "ea865de7b6ed5503",
   "lastOpenFiles": [
     "Education/Courses/NeirNewtwork/Base Knowlage.md",
     "Education/Courses/NeirNewtwork",
