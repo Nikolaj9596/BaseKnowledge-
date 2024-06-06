@@ -25,24 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/My Pet Project/Api Server /Bot App/Architecture Bot App.md",
+                "file": "Projects/My Pet Project/Api Server /Ход работы.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "ea865de7b6ed5503",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.8"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -137,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/My Pet Project/Api Server /Bot App/Architecture Bot App.md",
+                "file": "Projects/My Pet Project/Api Server /Ход работы.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/My Pet Project/Api Server /Bot App/Architecture Bot App.md",
+                "file": "Projects/My Pet Project/Api Server /Ход работы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/My Pet Project/Api Server /Bot App/Architecture Bot App.md"
+                "file": "Projects/My Pet Project/Api Server /Ход работы.md"
               }
             }
           },
@@ -231,8 +221,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ea865de7b6ed5503",
+  "active": "071d96355cc6f05a",
   "lastOpenFiles": [
+    "Projects/My Pet Project/Api Server /Auth App/Architecture Auth App.md",
+    "Projects/My Pet Project/Api Server /Trading Platform App/Architecture Trading Platform App.md",
+    "Projects/My Pet Project/Api Server /User App/Architecture User App.md",
+    "Projects/My Pet Project/Api Server /User App/Profile.md",
+    "Projects/Trading Bots/SIgnal Trading Bot/doc-trading-bot.md",
+    "Notes/AsyncPG Connector.md",
+    "Notes/Swap-File.md",
+    "Notes/Start Openvpn in Docker.md",
+    "Notes/Nvim Base Configuration.md",
+    "Notes/Linux-Usefull-Command.md",
+    "Notes/Kubernetes Command.md",
+    "Education/Courses/Architecture/Patterns/Generating/Abstract Factory Method.md",
+    "Projects/My Pet Project/Api Server /Bot App/Architecture Bot App.md",
     "Education/Courses/NeirNewtwork/Base Knowlage.md",
     "Education/Courses/NeirNewtwork",
     "Projects/Lua Plugin/New plug for docker.md",
@@ -248,21 +251,8 @@
     "Education/Courses/Architecture/Patterns/Behavior/Interpreter.md",
     "Education/Courses/Architecture/Patterns/Behavior/Command.md",
     "Education/Courses/Architecture/Patterns/Behavior/Chain_Of_Responsibility.md",
-    "Education/Courses/Architecture/Patterns/Behavior/BlackBoard.md",
-    "Education/Courses/Architecture/Patterns/Structural/Proxy.md",
     "Education/Courses/Architecture/Patterns/Behavior",
-    "Education/Courses/Architecture/Architecture СЛЕРМ.md",
-    "Education/Courses/Architecture/Patterns/Structural/Flyweight.md",
-    "Education/Courses/Architecture/Patterns/Structural/Facade.md",
-    "Education/Courses/Architecture/Patterns/Structural/Decorator.md",
-    "Education/Courses/Architecture/Patterns/Structural/Composite.md",
-    "Education/Courses/Architecture/Patterns/Structural/Bridge.md",
-    "Education/Courses/Architecture/Patterns/Structural/Adapter.md",
-    "Education/Courses/Architecture/Patterns/Generating/Abstract Factory.md",
     "Education/Courses/Architecture/Patterns/Structural",
-    "Education/Courses/Architecture/Patterns/Generating/Builder.md",
-    "Education/Courses/Architecture/Patterns/Generating/Abstract Factory Method.md",
-    "Education/Courses/Architecture/Patterns/Generating/Prototype.md",
     "Education/Courses/Architecture/Patterns/Generating/Abstract Factory",
     "Education/Courses/Architecture/Patterns/Generating/AbstractFactoryMethod",
     "Education/Courses/Architecture/Patterns/Generating",
