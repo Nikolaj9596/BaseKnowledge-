@@ -1,8 +1,15 @@
+---
+id: alembic
+aliases:
+  - Alembic
+tags:
+  - python
+---
 # Alembic
 
 #alembic #command #python
 
-### Init new alembic in current directory
+### Initialize new alembic in current directory
 
 ```bash
 alimbic init

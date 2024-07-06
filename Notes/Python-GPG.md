@@ -1,3 +1,10 @@
+---
+id: Python-GPG
+aliases: []
+tags:
+  - python
+---
+
  ###  Создание апплета командной строки 
 
 ```python

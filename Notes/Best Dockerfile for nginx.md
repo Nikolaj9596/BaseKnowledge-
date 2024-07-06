@@ -1,8 +1,15 @@
-# The best practice create docker file for nginx
+---
+id: Best Dockerfile for nginx
+aliases:
+  - The best practice create dockerfile for nginx
+tags:
+  - nginx
+  - dockerfile
+---
+# The best practice create dockerfile for nginx
 
-#nginx #dockerfile
 
-```yaml
+```dockerfile
 FROM alpine:3.11.5
 
 ENV NGINX_VERSION 1.16.1-r6

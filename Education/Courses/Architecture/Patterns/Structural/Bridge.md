@@ -1,8 +1,9 @@
+
 # Мост
+
 #architecture #structural #pattern 
 
 ```plantuml
-
 class Client{}
 
 class Abstraction{
@@ -26,6 +27,7 @@ ConcreteImplementation ..|> Implementation
 ###### Плюсы
 - Реализует принцип открытости/закрытости
 - Улучшает масштабируемость
+
 ###### Минусы
 - Усложняет структуру и читаемость кода из-за введения дополнительных классов
 ```python

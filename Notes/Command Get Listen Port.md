@@ -1,3 +1,10 @@
+---
+id: Command Get Listen Port
+aliases:
+  - linux commands for get listening port
+tags:
+  - linux
+---
 ### Command for get listening port on linux
 
 ```bash

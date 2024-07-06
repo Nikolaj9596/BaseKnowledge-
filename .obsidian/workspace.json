@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "1023f1c3d213a096",
+        "id": "71d7e3d8d28c4735",
         "type": "tabs",
         "children": [
           {
-            "id": "a3a19e80b4b3c492",
+            "id": "339863a37940c532",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Lua Plugin/Translate plugin for nvim on lua.md",
+                "file": "Notes/ASP.Net Project On  Linux.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "071d96355cc6f05a",
+            "id": "72d65b7f0031187f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/My Pet Project/Ход работы v2.md",
+                "file": "Notes/RabbitMQ-TLS-SSL.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/My Pet Project/Ход работы v2.md",
+                "file": "Notes/RabbitMQ-TLS-SSL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/My Pet Project/Ход работы v2.md",
+                "file": "Notes/RabbitMQ-TLS-SSL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/My Pet Project/Ход работы v2.md"
+                "file": "Notes/RabbitMQ-TLS-SSL.md"
               }
             }
           },
@@ -221,10 +221,30 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "071d96355cc6f05a",
+  "active": "72d65b7f0031187f",
   "lastOpenFiles": [
-    "Projects/My Pet Project/Api Server /Ход работы.md",
+    "1719860766-some-noute.md",
+    "Notes/RabbitMQ-TLS-SSL.md",
+    "Universety/C#/HostingTradingBots/Architecture.md",
+    "Universety/C#/HostingTradingBots/Technical Specifications.md",
+    "Education/EducationMap.md",
+    "EducationMap.puml",
+    "Notes/ASP.Net Project On  Linux.md",
+    "Notes/Start ASP Net Projects",
+    "Projects/Lua Plugin/Translate plugin for nvim on lua.md",
+    "Notes/Kubernetes command for create service account.md",
+    "Notes/Exports-Metrics-Prometheus-Djang-FastApi.md",
+    "Notes/Docker SetUp Default Network.md",
+    "Education/ElasticSearch/ElasticSearch.md",
+    "Universety/C#/HostingTradingBots",
+    "Universety/C#",
+    "Universety",
+    "Education/Python/Django Material View.md",
+    "Education/Courses/RabbitMQ/Course Slerm RabbitMQ.md",
+    "Education/Courses/Architecture/Patterns/Structural/Composite.md",
+    "Education/Courses/Architecture/Patterns/Behavior/Command.md",
     "Projects/My Pet Project/Ход работы v2.md",
+    "Projects/My Pet Project/Api Server /Ход работы.md",
     "Projects/My Pet Project/Api Server /Auth App/Architecture Auth App.md",
     "Projects/My Pet Project/Api Server /Trading Platform App/Architecture Trading Platform App.md",
     "Projects/My Pet Project/Api Server /User App/Architecture User App.md",
@@ -234,31 +254,11 @@
     "Notes/Swap-File.md",
     "Notes/Start Openvpn in Docker.md",
     "Notes/Nvim Base Configuration.md",
-    "Notes/Linux-Usefull-Command.md",
-    "Notes/Kubernetes Command.md",
-    "Education/Courses/Architecture/Patterns/Generating/Abstract Factory Method.md",
-    "Projects/My Pet Project/Api Server /Bot App/Architecture Bot App.md",
-    "Education/Courses/NeirNewtwork/Base Knowlage.md",
     "Education/Courses/NeirNewtwork",
-    "Projects/Lua Plugin/New plug for docker.md",
-    "Education/Courses/PostgreSQL/QPT.md",
-    "Education/Courses/Architecture/Patterns/Behavior/Visitor.md",
-    "Education/Courses/Architecture/Patterns/Behavior/Template_Method.md",
-    "Education/Courses/Architecture/Patterns/Behavior/Strategy.md",
-    "Education/Courses/Architecture/Patterns/Behavior/Observer.md",
     "Education/Courses/Architecture/Patterns/Behavior/State",
-    "Education/Courses/Architecture/Patterns/Behavior/Memento.md",
-    "Education/Courses/Architecture/Patterns/Behavior/Mediator.md",
-    "Education/Courses/Architecture/Patterns/Behavior/Interator.md",
-    "Education/Courses/Architecture/Patterns/Behavior/Interpreter.md",
     "Education/Courses/Architecture/Patterns/Behavior",
     "Education/Courses/Architecture/Patterns/Structural",
     "Education/Courses/Architecture/Patterns/Generating/Abstract Factory",
-    "Education/Courses/Architecture/Patterns/Generating/AbstractFactoryMethod",
-    "Education/Courses/Architecture/Patterns/Generating",
-    "Education/Courses/Architecture/Patterns",
-    "Education/Courses/Architecture",
-    "Education/ElasticSearch",
     "Untitled 7.canvas",
     "Untitled 6.canvas",
     "Untitled 5.canvas",

@@ -1,6 +1,12 @@
+---
+id: AsyncPG Connector
+aliases:
+  - Example asyncpg connector
+tags:
+  - python
+  - asyncpg
+---
 # Example asyncpg connector
-
-#python #asyncpg
 
 ```python
   import asyncpg
