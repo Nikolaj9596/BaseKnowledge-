@@ -8,31 +8,62 @@
         "type": "tabs",
         "children": [
           {
-            "id": "339863a37940c532",
+            "id": "72d65b7f0031187f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/ASP.Net Project On  Linux.md",
+                "file": "Notes/1728762630-ideas.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "72d65b7f0031187f",
+            "id": "e17ecddee31ede28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/RabbitMQ-TLS-SSL.md",
+                "file": "Projects/[Deprecated] House Trading Bots Project/Api Server /Архитектура проекта API Сервера.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a5d6454a29a94848",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "Trading Bot Market.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "d51713968d5094df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jobs/Kassir.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -111,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5086555480957
+    "width": 200
   },
   "right": {
     "id": "a4aebba3ad4bd133",
@@ -127,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/RabbitMQ-TLS-SSL.md",
+                "file": "Jobs/Kassir.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/RabbitMQ-TLS-SSL.md",
+                "file": "Jobs/Kassir.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/RabbitMQ-TLS-SSL.md"
+                "file": "Jobs/Kassir.md"
               }
             }
           },
@@ -204,7 +235,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -218,47 +249,55 @@
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "72d65b7f0031187f",
+  "active": "d51713968d5094df",
   "lastOpenFiles": [
-    "1719860766-some-noute.md",
-    "Notes/RabbitMQ-TLS-SSL.md",
-    "Universety/C#/HostingTradingBots/Architecture.md",
-    "Universety/C#/HostingTradingBots/Technical Specifications.md",
-    "Education/EducationMap.md",
-    "EducationMap.puml",
-    "Notes/ASP.Net Project On  Linux.md",
-    "Notes/Start ASP Net Projects",
-    "Projects/Lua Plugin/Translate plugin for nvim on lua.md",
-    "Notes/Kubernetes command for create service account.md",
-    "Notes/Exports-Metrics-Prometheus-Djang-FastApi.md",
-    "Notes/Docker SetUp Default Network.md",
-    "Education/ElasticSearch/ElasticSearch.md",
-    "Universety/C#/HostingTradingBots",
-    "Universety/C#",
-    "Universety",
-    "Education/Python/Django Material View.md",
-    "Education/Courses/RabbitMQ/Course Slerm RabbitMQ.md",
-    "Education/Courses/Architecture/Patterns/Structural/Composite.md",
-    "Education/Courses/Architecture/Patterns/Behavior/Command.md",
-    "Projects/My Pet Project/Ход работы v2.md",
-    "Projects/My Pet Project/Api Server /Ход работы.md",
-    "Projects/My Pet Project/Api Server /Auth App/Architecture Auth App.md",
-    "Projects/My Pet Project/Api Server /Trading Platform App/Architecture Trading Platform App.md",
-    "Projects/My Pet Project/Api Server /User App/Architecture User App.md",
-    "Projects/My Pet Project/Api Server /User App/Profile.md",
+    "Jobs/Kassir.md",
+    "Jobs",
+    "Notes/1728762630-ideas.md",
+    "Projects/[Deprecated] House Trading Bots Project/Api Server /Trading Platform App/Architecture Trading Platform App.md",
+    "Projects/[Deprecated] House Trading Bots Project/Api Server /Bot App/Architecture Bot App.md",
+    "Projects/[Deprecated] House Trading Bots Project/Api Server /Auth App/Architecture Auth App.md",
     "Projects/Trading Bots/SIgnal Trading Bot/doc-trading-bot.md",
     "Notes/AsyncPG Connector.md",
-    "Notes/Swap-File.md",
-    "Notes/Start Openvpn in Docker.md",
-    "Notes/Nvim Base Configuration.md",
-    "Education/Courses/NeirNewtwork",
-    "Education/Courses/Architecture/Patterns/Behavior/State",
-    "Education/Courses/Architecture/Patterns/Behavior",
-    "Education/Courses/Architecture/Patterns/Structural",
-    "Education/Courses/Architecture/Patterns/Generating/Abstract Factory",
+    "Notes/ASP.Net Project On  Linux.md",
+    "Notes/alembic.md",
+    "Notes/1727384855-hyprland.md",
+    "Notes/1722974541-figma-hot-key.md",
+    "Education/Python/Django Material View.md",
+    "dailies/2024-07-06.md",
+    "Projects/[Deprecated] House Trading Bots Project/Api Server /Ход работы.md",
+    "Education/Courses/Architecture/Patterns/Generating/Abstract Factory.md",
+    "20240806000722.png.md",
+    "dailies/2024-08-08.md",
+    "dailies/2024-07-09.md",
+    "Markdown Obsidian Example.md",
+    "Projects/[Deprecated] House Trading Bots Project/Api Server /Архитектура проекта API Сервера.md",
+    "Trading Bot Market.md",
+    "Добавить Swagger 1.md",
+    "Добавить Swagger.md",
+    "Education/Courses/Architecture/Patterns/Behavior/Visitor.md",
+    "Projects/CoinTermenatorCrafters Project/Guardian Service/DB Schema Guardian Service.md",
+    "Projects/CoinTermenatorCrafters Project/Guardian Service/Guardian Kanban.md",
+    "Projects/CoinTermenatorCrafters Project/Guardian Service/GuardianDBSchemas.plam",
+    "Projects/CoinTermenatorCrafters Project/Guardian Service/GuardianDBSchemas.paml",
+    "Flowchart (4).jpg",
+    "Flowchart (3).jpg",
+    "Flowchart (2).jpg",
+    "Flowchart (1).jpg",
+    "Flowchart.jpg",
+    "Projects/CoinTermenatorCrafters Project/Marketpalce Service",
+    "Projects/CoinTermenatorCrafters Project/Wallet Service",
+    "Projects/CoinTermenatorCrafters Project/Accounting Service",
+    "Projects/CoinTermenatorCrafters Project/Basket Service",
+    "Projects/CoinTermenatorCrafters Project/Favorite Service",
+    "Projects/CoinTermenatorCrafters Project/Trading Platform Service",
+    "Projects/CoinTermenatorCrafters Project/Coin Service",
+    "Projects/CoinTermenatorCrafters Project/Pasted image 20240806000722.png",
+    "Pasted image 20240806001656.png",
     "Untitled 7.canvas",
     "Untitled 6.canvas",
     "Untitled 5.canvas",

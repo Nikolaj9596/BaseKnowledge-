@@ -1,3 +1,9 @@
+---
+id: Depoloy django project kubernetes
+aliases: []
+tags: []
+---
+
 ## Первичная настройка
 #django #kubernetes #devops
 * Выбираем название проекта, например `example`

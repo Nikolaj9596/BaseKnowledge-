@@ -1,3 +1,12 @@
+---
+id: Pandas
+aliases:
+  - Work with Pandas
+tags:
+  - python
+  - pandas
+---
+
 # Work with Pandas
 
 ## Rename column

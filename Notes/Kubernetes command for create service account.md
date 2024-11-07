@@ -1,3 +1,10 @@
+---
+id: Kubernetes command for create service account
+aliases:
+  - Добавляем объект Image Pull Policy GitLab
+tags: []
+---
+
 #kubernetes  #ci/cd
 # Добавляем объект Image Pull Policy GitLab
 

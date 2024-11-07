@@ -3,5 +3,13 @@
   "vimMode": true,
   "alwaysUpdateLinks": true,
   "showLineNumber": true,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "Files",
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  }
 }

@@ -1,3 +1,12 @@
+---
+id: Mount-Server-Folder
+aliases:
+  - mount-server-folder
+tags:
+  - sshfs
+  - linux
+---
+
 ## This command mount folder server to local directory
 
 ```bash
